@@ -43,7 +43,12 @@ Several more chapters in progress.
 
 ## Spoiler Archive
 
-This archive preserves the project’s core premise, Season 1 draft material, and Season 2’s direction as a public development snapshot. It exists so that the project’s underlying story engine and development timeline are clear, especially as current Miraculous canon continues to evolve.
+A spoiler archive exists as a development snapshot that preserves the project’s core premise, Season 1 draft material, and Season 2’s direction, so that the project’s underlying story engine and development timeline are clear.
 
-### ⚠️MAJOR SPOILER WARNING⚠️
-The archive contains future-arc planning and development notes that may spoil the intended animated version, and even the written version.  If you are planning to read the story chronologically or wait for the animated version, DO NOT look inside the spoiler archive.  Click at your own risk: Link coming soon.
+<!-- 
+⚠️MAJOR SPOILER WARNING⚠️
+The spoiler archive contains information that may spoil the intended animated version, and even the written version.  If you are planning to read the story chronologically or wait for the animated version, do not open it.  It exists mainly for provenance and is not meant to be read otherwise.
+
+Spoiler/provenance archive link:
+https://github.com/numberfist/miraculous-spoiler-archive 
+-->
