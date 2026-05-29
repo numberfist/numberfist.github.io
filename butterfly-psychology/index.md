@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Miraculous: Pyschology of the Butterfly"
+title: "Miraculous: Psychology of the Butterfly"
 ---
 
 <style type="text/css">
