@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Miraculous - Pyschology of the Butterfly
+title: "Miraculous: Pyschology of the Butterfly"
 ---
 
 <style type="text/css">
@@ -16,23 +16,34 @@ title: Miraculous - Pyschology of the Butterfly
   everything else such as the story, setting, characters, and premise is original.
 </p>
 
+## Important Note
+This is an unofficial project. This project is not affiliated with *Miraculous*, or any other real institution referenced within the story.  Events and characters in this story are fictionalized, thus, any resemblances of characters to real people, living or dead, are purely coincidental.
+
 ## Season 1
 
 | Chapter | Status | Notes |
 |---|---|---|
-| [Chapter 1](chapter-01) | Draft / battle incomplete | Main plot scenes present; akuma battle to be expanded later. |
-| [Chapter 2](chapter-02) | Draft / battle incomplete | Main plot scenes present; akuma battle to be expanded later. |
-| [Chapter 3](chapter-03) | Draft complete | Includes full akuma structure. |
-| [Chapter 4](chapter-04) | Draft complete | Contains major recontextualization. |
-| [Chapter 5](chapter-05) | Draft complete | Main reveal/escalation material present. |
-| [Chapter 6](chapter-06) | Mostly complete | Missing short battle bridge; core continuity present. |
+| [Chapter 1: Vanisher](chapter-01/) | Fully complete except akuma battle | Main plot scenes already written. |
+| [Chapter 2: Baffler](chapter-02/) | Fully complete except akuma battle | Main plot scenes already written. |
+| [Chapter 3: Sociovestigator](chapter-03/) | Fully complete | |
+| [Chapter 4: Spectrocrat](chapter-04/) | Fully complete | |
+| [Chapter 5: Sentinella](chapter-05/) | Fully complete | |
+| [Chapter 6: Examinator](chapter-06/) | Fully complete except minor scene | |
+| Chapter 7: Registrar | Work in Progress | |
+| Chapter 8: Polariton | Work in Progress | |
 
 ## Season 2
 
-Links coming soon!
+| Chapter | Status | Notes |
+|---|---|---|
+| Chapter 9: Null Hypothesis | Work in Progress | |
+| Chapter 10: Secret Knight | Work in Progress | |
+
+Several more chapters in progress.
 
 ## Spoiler Archive
 
-MAJOR SPOILER WARNING: the archive will contain future-arc planning and development notes that may spoil the intended animated version, and even the written version.  Click at your own risk.
+This archive preserves the project’s core premise, Season 1 draft material, and Season 2’s direction as a public development snapshot. It exists so that the project’s underlying story engine and development timeline are clear, especially as current Miraculous canon continues to evolve.
 
-Link coming soon.
+### ⚠️MAJOR SPOILER WARNING⚠️
+The archive contains future-arc planning and development notes that may spoil the intended animated version, and even the written version.  If you are planning to read the story chronologically or wait for the animated version, DO NOT look inside the spoiler archive.  Click at your own risk: Link coming soon.
