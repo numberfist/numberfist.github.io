@@ -11,24 +11,29 @@ title: "Miraculous: Pyschology of the Butterfly"
 <hr style="page-break-before:always;display:none;"/>
 
 
-<p class="project-intro">
+<p class="story-intro">
   This is where my Miraculous AU lives. Apart from the Miraculous jewels themselves,
   everything else such as the story, setting, characters, and premise is original.
 </p>
 
-## Important Note
-This is an unofficial project. This project is not affiliated with *Miraculous*, or any other real institution referenced within the story.  Events and characters in this story are fictionalized, thus, any resemblances of characters to real people, living or dead, are purely coincidental.
+<section class="important-notes" markdown="1">
+
+## Important Notes
+- This story is written to stay within an intended TV-PG range.  Individual chapters may include additional notes where useful.
+- This project is not affiliated with *Miraculous: Tales of Ladybug & Cat Noir* or any real institution referenced within the story.  Events and characters in this story are fictionalized.  Any resemblance of characters to real people, living or dead, is purely coincidental.
+
+</section>
 
 ## Season 1
 
 | Chapter | Status | Notes |
 |---|---|---|
-| [Chapter 1: Vanisher](chapter-01/) | Fully complete except akuma battle | Main plot scenes already written. |
-| [Chapter 2: Baffler](chapter-02/) | Fully complete except akuma battle | Main plot scenes already written. |
-| [Chapter 3: Sociovestigator](chapter-03/) | Fully complete | |
-| [Chapter 4: Spectrocrat](chapter-04/) | Fully complete | |
-| [Chapter 5: Sentinella](chapter-05/) | Fully complete | |
-| [Chapter 6: Examinator](chapter-06/) | Fully complete except minor scene | |
+| [Chapter 1: Vanisher](chapter-01.html) | Fully complete except akuma battle | Main plot scenes already written. |
+| [Chapter 2: Baffler](chapter-02.html) | Fully complete except akuma battle | Main plot scenes already written. |
+| [Chapter 3: Sociovestigator](chapter-03.html) | Fully complete | |
+| [Chapter 4: Spectrocrat](chapter-04.html) | Fully complete | |
+| [Chapter 5: Sentinella](chapter-05.html) | Fully complete | |
+| [Chapter 6: Examinator](chapter-06.html) | Fully complete except minor scene | |
 | Chapter 7: Registrar | Work in Progress | |
 | Chapter 8: Polariton | Work in Progress | |
 
@@ -43,7 +48,7 @@ Several more chapters in progress.
 
 ## Spoiler Archive
 
-A spoiler archive exists as a development snapshot that preserves the project’s core premise, Season 1 draft material, and Season 2’s direction, so that the project’s underlying story engine and development timeline are clear.
+A spoiler archive exists as a development snapshot that preserves the story’s core premise, Season 1 draft material, and Season 2’s direction, so that the story’s underlying story engine and development timeline are clear.
 
 <!-- 
 ⚠️MAJOR SPOILER WARNING⚠️
