@@ -34,8 +34,8 @@ title: "Miraculous: Psychology of the Butterfly"
 | [Chapter 4: Spectrocrat](chapter-04.html) | Fully complete | |
 | [Chapter 5: Sentinella](chapter-05.html) | Fully complete | |
 | [Chapter 6: Examinator](chapter-06.html) | Fully complete except minor scene | |
-| Chapter 7: Registrar | Work in Progress | |
-| Chapter 8: Polariton | Work in Progress | |
+| [Chapter 7: Registrar](chapter-07.html) | Fully complete except minor scene | Season Finale, Part 1 |
+| Chapter 8: Polariton | Work in Progress | Season Finale, Part 2 |
 
 ## Season 2
 
