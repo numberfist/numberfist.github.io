@@ -13,7 +13,7 @@ title: "Miraculous: Psychology of the Butterfly"
 
 <p class="story-intro">
   This is where my Miraculous AU lives. Apart from the Miraculous jewels themselves,
-  everything else such as the story, setting, characters, and premise is original.
+  everything else, including the story, setting, characters, and premise is original.
 </p>
 
 <section class="important-notes" markdown="1">

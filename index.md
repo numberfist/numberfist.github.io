@@ -15,12 +15,8 @@ A separate fully original version of the same underlying idea is planned, but it
 
 ### [Butterfly Psychology Story]({{ "/butterfly-psychology/" | relative_url }})
 
-The Miraculous framework happened to be an existing framework that was quite compatible with my idea, so I decided to find out how far it could go, even while keeping the characters, setting, conflicts, and long-term premise original to this project.  So I decided to find out how far that idea can go, and it turns out it can go much further than I initially expected.
+The Miraculous framework happened to be an existing framework that was quite compatible with my idea, so I decided to find out how far my idea could go, even while keeping the characters, setting, conflicts, and long-term premise original to this project.  It turns out it can go much further than I initially expected.
 
 ### [Original Story]({{ "/original/" | relative_url }})
 
 That same idea can support an independent story in my originally planned worldbuilding, however, I am yet to figure out the details.  Coming soon.
-
-## Archive note
-
-Some linked material may contain major spoilers for future animated versions of these projects. Spoiler-heavy pages will be clearly marked, so view at your own risk.
