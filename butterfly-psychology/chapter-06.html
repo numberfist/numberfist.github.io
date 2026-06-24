@@ -1628,19 +1628,62 @@ title: "Chapter 6: Examinator"
 
   Bard and Faulkner, Electrochemical Methods: Fundamentals and
   Applications<br/>
-  Harris, Quantitative Chemical Analysis<br/>
-  K. Sriramam, Mechanistic interpretation of the redox behaviour of
-  diphenylamine<br/>
-  Werner Schmidt, Eberhard Steckhan, Elektrochemische und
-  spektroskopische Untersuchung</span> <span class="c1 c3">bromsubstituierter</span><span class="c1 c3"> Triarylamin-Redoxsystem<br/>
   Steffen Dapperheld, Eberhard Steckhan, Karl-Heinz Grosse
   Brinkhaus, and Thomas Esch, Substituted Triarylamine
   Cation-Radical Redox Systems - Synthesis, Electrochemical and
   Spectroscopic Properties,</span> <span class="c1 c3">Hammet</span><span class="c1 c3"> Behavior, and
   Suitability as Redox Catalysts<br/>
+  Harris, Quantitative Chemical Analysis<br/>
+  Smith and Martell, Critical Stability Constants, Volume 4: Inorganic Complexes<br/>
+  David R. Lide, ed., CRC Handbook of Chemistry and Physics, Internet Version 2005,</span> <span class="c20 c1 c3"><a class="c27" href="http://www.hbcpnetbase.com">http://www.hbcpnetbase.com</a></a></span><span class="c1 c3">, CRC Press, Boca Raton, FL, 2005.<br/>
+  K. Sriramam, Mechanistic interpretation of the redox behaviour of
+  diphenylamine<br/>
   Hongjun Yang, Allen J. Bard, The application of rapid scan cyclic
   voltammetry and digital simulation to the study of the mechanism
   of diphenylamine oxidation, radical cation dimerization, and
   polymerization in acetonitrile</span></p>
 <hr style="page-break-before:always;display:none;"/>
+</div>
+
+<div style="border: 1px solid #999; padding: 10px 12px; margin: 18px 0; font-family: 'Times New Roman'; font-size: 13pt; line-height: 1.25; background-color: #f8f8f8;">
+  <strong>Optional chemistry challenge for interested readers:</strong><br/> 
+  In this chapter, a potentiometric titration experiment was mentioned.  The experiment can be conducted as follows.  
+  A flask contains $50.00 \, \text{mL}$ of $5.00 \, \text{mM}$ sodium phosphate in an ammonia buffer consisting of $50.0 \, \text{mM}$ $\ce{NH3}$ with $50.0 \, \text{mM} \, \ce{NH4+}$.
+  A titrant solution of $50.0 \, \text{mM} \, \ce{Cd}^{z+}$ is added, and $E_{\ce{Cd}^{z+}/\ce{Cd}}$ (vs. SHE) of the solution is recorded vs. volume of titrant added.  
+  Simulated data for this experiment can be found <a href="titration-data.csv">here</a>.<br/>
+  <br/>
+  During the titration, the following solubility and complexation equilibria are present:
+  <table>
+    <thead>
+      <tr><th>Equilibrium</th><th>Equilibrium Constant</th></tr> 
+    </thead>
+    <tbody>
+      <tr><td>$\ce{Cd}_x(\ce{PO4})_y (s) \ce{<=>} x\ce{Cd}^{z+} (aq) + y \ce{PO4^{3-}} (aq)$</td><td>$K_{sp}$</td></tr>
+      <tr><td>$\ce{Cd}^{z+} (aq) + n \ce{NH3}(aq) \ce{<=>} \left[ \ce{Cd(NH3)}_n \right]^{z+} (aq)$</td><td>$K_f$</td></tr>
+    </tbody>
+  </table>
+  For this problem, the following $pK_a$ values can be assumed:
+  <table>
+    <thead>
+      <tr><th>Acid</th><th>$pK_a$</th></tr> 
+    </thead>
+    <tbody>
+      <tr><td>$\ce{H3PO4}$</td><td>2.148</td></tr>
+      <tr><td>$\ce{H2PO4-}$</td><td>7.198</td></tr>
+      <tr><td>$\ce{HPO4^{2-}}$</td><td>12.375</td></tr>
+      <tr><td>$\ce{NH4+}$</td><td>9.245</td></tr>
+    </tbody>
+  </table>
+  In addition, assume that the standard reduction potential  $E^{\circ}_{\ce{Cd}^{z+}/\ce{Cd}} = -0.402 \, \text{V}$ vs. SHE.<br/><br/>
+  Assume ideal behavior, additive volumes, and a Nernstian electrode response to free $\ce{Cd}^{z+}$.<br/><br/>
+
+  <div class="problem">
+    <p>From the provided titration data, determine the following:</p>
+    <ol class="problem-parts">
+      <li>Use the equivalence point volume to determine $z$ (equivalently, $x$ and $y$, which can be taken to be relatively prime).</li>
+      <li>Use a linear plot to determine $K_{sp}$.</li>
+      <li>Use a linear plot to determine $n$, $K_f$ and $z$ without using your result from part (a).  However, if you are unclear on how to do this, you may use the value of $z$ you found in part (a).</li>
+    </ol>
+  </div>
+
 </div>

@@ -99,6 +99,41 @@
       max-width: 850px !important;
       padding: 48px 56px !important;
     }
+
+    .problem {
+      font-family: "Times New Roman", Times, serif;
+      font-size: 13pt;
+      line-height: 1.35;
+    }
+
+    .problem p,
+    .problem li {
+      font-family: inherit;
+      font-size: inherit;
+      line-height: inherit;
+    }
+
+    ol.problem-parts {
+      counter-reset: problem-part;
+      list-style-type: none;
+      padding-left: 2.5em;
+      margin: 1em 0;
+      font-family: inherit;
+    }
+
+    ol.problem-parts > li {
+      counter-increment: problem-part;
+      margin-bottom: 0.2em;
+      font-family: inherit;
+    }
+
+    ol.problem-parts > li::before {
+      content: "(" counter(problem-part, lower-alpha) ") ";
+      margin-left: -2.5em;
+      display: inline-block;
+      width: 2.5em;
+      font-family: inherit;
+    }
   </style>
 </head>
 
