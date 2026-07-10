@@ -43,6 +43,9 @@ title: "Miraculous: Psychology of the Butterfly"
 |---|---|---|
 | Chapter 9: Null Hypothesis | Work in Progress | |
 | Chapter 10: Secret Knight | Work in Progress | |
+| Chapter 11: Decoupler | Work in Progress | |
+| Chapter 12: ??? | Work in Progress | |
+| Chapter 13: Viscosia | Work in Progress | |
 
 Several more chapters in progress.
 
