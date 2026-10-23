@@ -41,7 +41,7 @@ title: "Miraculous: Psychology of the Butterfly"
 
 | Chapter | Status | Notes |
 |---|---|---|
-| Chapter 9: Null Hypothesis | Work in Progress | Season Premiere, Part 1 |
+| [Chapter 9: Null Hypothesis](chapter-09.html) | Fully complete except minor scene | Season Premiere, Part 1 |
 | Chapter 10: Secret Knight | Work in Progress | Season Premiere, Part 2 |
 | Chapter 11: Decoupler | Work in Progress | |
 | Chapter 12: Conjugator | Work in Progress | |

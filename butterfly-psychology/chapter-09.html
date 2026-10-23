@@ -1,0 +1,1295 @@
+---
+layout: default
+title: "Chapter 9: Null Hypothesis"
+---
+<style type="text/css">
+  ol{margin:0;padding:0}table td,table th{padding:0}.c11{border-right-style:solid;padding:5pt 5pt 5pt 5pt;border-bottom-color:#000000;border-top-width:1pt;border-right-width:1pt;border-left-color:#000000;vertical-align:top;border-right-color:#000000;border-left-width:1pt;border-top-style:solid;border-left-style:solid;border-bottom-width:1pt;width:234pt;border-top-color:#000000;border-bottom-style:solid}.c21{background-color:#ffffff;-webkit-text-decoration-skip:none;color:#000000;font-weight:700;text-decoration:underline;vertical-align:baseline;text-decoration-skip-ink:none;font-size:27pt;font-family:"Times New Roman";font-style:normal}.c10{background-color:#ffffff;-webkit-text-decoration-skip:none;color:#000000;font-weight:700;text-decoration:underline;vertical-align:baseline;text-decoration-skip-ink:none;font-size:34pt;font-family:"Times New Roman";font-style:normal}.c14{-webkit-text-decoration-skip:none;color:#000000;font-weight:700;text-decoration:underline;vertical-align:baseline;text-decoration-skip-ink:none;font-size:18pt;font-family:"Times New Roman";font-style:normal}.c22{color:#000000;font-weight:400;text-decoration:none;vertical-align:baseline;font-size:12pt;font-family:"Times New Roman";font-style:normal}.c0{padding-top:12pt;text-indent:36pt;padding-bottom:12pt;line-height:1.15;orphans:2;widows:2;text-align:left}.c3{color:#000000;font-weight:400;text-decoration:none;vertical-align:baseline;font-size:13pt;font-family:"Times New Roman";font-style:normal}.c8{padding-top:12pt;padding-bottom:12pt;line-height:1.15;orphans:2;widows:2;text-align:left}.c1{padding-top:0pt;padding-bottom:0pt;line-height:1.15;orphans:2;widows:2;text-align:center}.c20{text-decoration-skip-ink:none;font-size:18pt;font-family:"Times New Roman";-webkit-text-decoration-skip:none;font-weight:700;text-decoration:underline}.c19{padding-top:0pt;padding-bottom:0pt;line-height:1.15;orphans:2;widows:2;text-align:left}.c15{padding-top:12pt;padding-bottom:12pt;line-height:1.15;orphans:2;widows:2;text-align:center}.c16{border-spacing:0;border-collapse:collapse;margin-right:auto}.c5{color:#000000;text-decoration:none;vertical-align:baseline;font-style:italic}.c9{background-color:#ffffff;font-size:28pt;font-family:"Times New Roman";font-weight:700}.c7{padding-top:0pt;padding-bottom:0pt;line-height:1.0;text-align:left}.c12{-webkit-text-decoration-skip:none;color:#1155cc;text-decoration:underline;text-decoration-skip-ink:none}.c2{background-color:#ffffff;max-width:468pt;padding:72pt 72pt 72pt 72pt}.c4{font-size:13pt;font-weight:400;font-family:"Times New Roman"}.c17{color:inherit;text-decoration:inherit}.c18{height:0pt}.c13{height:11pt}.c6{font-style:italic}.title{padding-top:0pt;color:#000000;font-size:26pt;padding-bottom:3pt;font-family:"Arial";line-height:1.15;page-break-after:avoid;orphans:2;widows:2;text-align:left}.subtitle{padding-top:0pt;color:#666666;font-size:15pt;padding-bottom:16pt;font-family:"Arial";line-height:1.15;page-break-after:avoid;orphans:2;widows:2;text-align:left}li{color:#000000;font-size:11pt;font-family:"Arial"}p{margin:0;color:#000000;font-size:11pt;font-family:"Arial"}h1{padding-top:20pt;color:#000000;font-size:20pt;padding-bottom:6pt;font-family:"Arial";line-height:1.15;page-break-after:avoid;orphans:2;widows:2;text-align:left}h2{padding-top:18pt;color:#000000;font-size:16pt;padding-bottom:6pt;font-family:"Arial";line-height:1.15;page-break-after:avoid;orphans:2;widows:2;text-align:left}h3{padding-top:16pt;color:#434343;font-size:14pt;padding-bottom:4pt;font-family:"Arial";line-height:1.15;page-break-after:avoid;orphans:2;widows:2;text-align:left}h4{padding-top:14pt;color:#666666;font-size:12pt;padding-bottom:4pt;font-family:"Arial";line-height:1.15;page-break-after:avoid;orphans:2;widows:2;text-align:left}h5{padding-top:12pt;color:#666666;font-size:11pt;padding-bottom:4pt;font-family:"Arial";line-height:1.15;page-break-after:avoid;orphans:2;widows:2;text-align:left}h6{padding-top:12pt;color:#666666;font-size:11pt;padding-bottom:4pt;font-family:"Arial";line-height:1.15;page-break-after:avoid;font-style:italic;orphans:2;widows:2;text-align:left}
+  </style>
+<div class="gdoc-page c2 doc-content">
+<p class="c1"><span class="c20">Chapter 9: Null
+  Hypothesis</span></p>
+<p class="c1 c13"></p>
+<p class="c15"><span class="c5 c4">Cold open: MIT classroom
+  56-169.</span></p>
+<p class="c0"><span class="c4">Gary stood next to the board, on
+  which some $d$-orbital splitting diagrams remained near a
+  spectrochemical series ordering.  The usual group sat around
+  Ruth near the back of the classroom.  Elliot sat a bit off
+  to the side, looking down at his notebook.  “OK guys, that’s
+  it for today,” Gary announced.  “I’ll be here if you have
+  any questions.”<br/>
+  Students quickly began standing and packing up.  Near the
+  back, one of the nearby students leaned towards Ruth.
+   “Wait, Ruth, didn’t you say Elliot’s color problem was
+  related to this?”  Ruth’s eyes darted between the student
+  and the group.  She clasped the straps of her soft pink
+  oversized backpack and gave a tiny nod.  Sanjana glanced at
+  Elliot, who was walking toward the door with his gaze at the
+  floor, then looked at Ruth.  <br/>
+  “Can you tell us how?” the same student asked.  Ruth
+  shuffled one step back towards the group.<br/>
+  Mira stepped closer to Ruth.  “Come on, Ruth, you know this
+  already,” she said softly.  “We all saw you solve it.”<br/>
+  Ruth opened her mouth, then quickly closed it and shuffled
+  another step back.  Elliot stopped and glanced at Ruth and
+  the group, then looked back down at the ground as his posture
+  slumped.<br/>
+  “Ruth’s just shy sometimes,” Mira said awkwardly.  The
+  student nodded.  “Maybe you could show us later?” Mira
+  ventured.  Ruth offered a small nod.<br/>
+  Sanjana turned her head back to a still-slumped Elliot, who had
+  resumed making his way towards the door.  Ruth’s soft pink
+  oversized backpack brushed lightly against Sanjana’s arm.
+   Sanjana looked at Ruth, who was somehow already right
+  beside her.  Sanjana shifted toward Ruth and smiled at her
+  gently.</span></p>
+<p class="c15"><span class="c5 c4">The screen shows the S1 title
+  sequence.</span></p>
+<p class="c0"><span class="c3">Sanjana sat in front of one of the
+  tables in the connection to Building 68, staring at her
+  notebook:</span></p>
+<table class="c16">
+<tr class="c18">
+<td class="c11" colspan="1" rowspan="1">
+<p class="c7"><span class="c5 c4">$\ce{Fe^{3+} + 3e^- -&gt;
+        Fe}$</span></p>
+</td>
+<td class="c11" colspan="1" rowspan="1">
+<p class="c7"><span class="c5 c4">$E^\circ = - 0.04\,
+        \text{V}$</span></p>
+</td>
+</tr>
+<tr class="c18">
+<td class="c11" colspan="1" rowspan="1">
+<p class="c7"><span class="c5 c4">$\ce{Fe^{2+} + 2e^- -&gt;
+        Fe}$</span></p>
+</td>
+<td class="c11" colspan="1" rowspan="1">
+<p class="c7"><span class="c5 c4">$E^\circ = - 0.44\,
+        \text{V}$</span></p>
+</td>
+</tr>
+<tr class="c18">
+<td class="c11" colspan="1" rowspan="1">
+<p class="c7"><span class="c5 c4">$\ce{Fe^{3+} + e^- -&gt;
+        Fe^{2+}}$</span></p>
+</td>
+<td class="c11" colspan="1" rowspan="1">
+<p class="c7"><span class="c5 c4">$E^\circ = \,
+        ?$</span></p>
+</td>
+</tr>
+</table>
+<p class="c8"><span class="c4">“But how…” Sanjana trailed off.
+   “I don’t get it?”<br/>
+  “Everything all right?”<br/>
+  Sanjana looked up from her notebook to see Lucy in the corridor.
+   “Hey Lucy.  Uh… I was just trying to figure this out.”
+   She pointed to the table in her notebook.  “If I just
+  subtract these, I don’t get the number from the appendix.
+   What’s wrong here?”<br/>
+  Lucy walked over.  “You know, Ruth</span> <span class="c4">is in 66</span><span class="c3"> right now.  She
+  could help you.  Especially with electrochem.”<br/>
+  Sanjana glanced back at the page.  “Yeah, she’d know.”
+   Sanjana stood up and shouldered her backpack.  “Should
+  we go together?”<br/>
+  Lucy gave her a thumbs up.</span></p>
+<p class="c15"><span class="c4 c6">Skip to the study space on the
+  3rd floor of Building 66</span><span class="c3">.</span></p>
+<p class="c8"><span class="c3">Ruth sat on the couch next to the
+  stairs.  She jammed her notebook into the large, bulging
+  plushies below it, then yanked the struggling zipper shut,
+  causing the backpack to take its usual oversized form once
+  again.<br/>
+  Lucy and Sanjana approached the couch.  “Hey, Ruth!” Lucy
+  said cheerfully.  Ruth looked up.<br/>
+  Sanjana opened her notebook, and showed her reduction potential
+  table to Ruth.  “I had a question if you don’t mind?”
+  Sanjana ventured.  “How do I do this?”<br/>
+  Ruth blinked at Sanjana’s notebook.  Her head dipped and her
+  shoulders drew inward.<br/>
+  “Ruth?” Sanjana asked softly.<br/>
+  “Sanjana just needs your chemistry help,” Lucy added softly.<br/>
+  Ruth blinked at the page.  “Y-you… you just need to subtract
+  the potentials,” she said quietly.  “J-just like the
+  reactions…”<br/>
+  “So this minus this?” Sanjana asked hesitantly, pointing to the
+  $-0.04$ and then the $-0.44$.  Ruth gave a tiny nod.<br/>
+  Sanjana paused again.  “But when I do that, it doesn’t match
+  the appendix?” she ventured.  “I don’t think I
+  understand?”<br/>
+  Ruth looked down at her lap, tucking her head into her body.
+   A few seconds hung between them.<br/>
+  “She’s just nervous, Sanjana,” Lucy said.  “Just give her
+  some time.”<br/>
+  “I know, it’s just that… we’ve seen Ruth do much harder stuff
+  than this,” Sanjana insisted.  She looked from Lucy to Ruth.
+   “I… just don’t see what I’m doing wrong.  Maybe I need
+  to use $\Delta G^\circ$ first?  Please, Ruth?”<br/>
+  Ruth raised her head.  “Y-you don’t need that…” Ruth trailed
+  off quietly.  “Y-you just subtract the p-potentials…”<br/>
+  “But how?” Sanjana asked.  “If I just subtract them I’m not
+  getting the right answer?”  She hesitated.  “Why
+  wouldn’t $\Delta G^\circ$ work?  I… I just don’t understand
+  how you did it?  I must have missed something.”<br/>
+  “I—” Ruth started.  She stretched her arms around her soft
+  pink oversized backpack, barely able to wrap fully around it, and
+  hugged the backpack to her face.<br/>
+  Sanjana knelt beside Ruth.  “Please, Ruth. It’s okay. It’s
+  just me.”  Ruth’s arms tightened around her soft pink
+  oversized backpack, pressing it harder into her face.
+   “Ruth?” Sanjana ventured.  Sanjana’s expression
+  softened as a few moments hung between them.  “It’s OK,”
+  Sanjana said, standing up.  “I need to go to 18.02 office
+  hours anyway…”  She glanced at Lucy.  “Oh, and please
+  stay with Ruth?” Sanjana asked.  “Please make sure she’s
+  OK?”  Lucy nodded.  Sanjana glanced quickly at Ruth,
+  then left up the stairs.</span></p>
+<p class="c15"><span class="c5 c4">The camera shows the butterfly
+  card to skip to the hallway right outside Professor Lansen’s
+  office.</span></p>
+<p class="c8"><span class="c3">Sanjana walked down the hallway
+  outside Professor Lansen’s office, whose office door was half
+  open.  Sanjana approached and knocked on the door.<br/>
+  “Come in,” Professor Lansen said from behind his desk.<br/>
+  Sanjana awkwardly took a step in.  “Sorry… but is it OK with
+  you if I ask a quick question?” she ventured.<br/>
+  Professor Lansen looked up.  “Oh, hi Sanjana.  I’m not
+  exactly holding office hours right now… but sure, come in.”<br/>
+  Sanjana walked inside and flipped her notebook open.
+   Professor Lansen leaned over the table.  “So… I’ve
+  been trying to figure out how to calculate the last reduction
+  potential.  I thought I was supposed to use $\Delta
+  G^\circ$,  but apparently I can just directly subtract the
+  two given reduction potentials?” she asked hesitantly.<br/>
+  “What are you subtracting, exactly?” Professor Lansen asked.<br/>
+  “This minus this,” Sanjana replied, pointing to the $-0.04$ and
+  $-0.44$ in sequence.<br/>
+  “That’s… not correct,” Professor Lansen said.<br/>
+  Sanjana looked at him quickly.  “It’s… not?”<br/>
+  Professor Lansen shook his head.  “The $\Delta G^\circ$ way
+  you mentioned is correct.  The same logic doesn't apply to
+  half-reaction potentials.”<br/>
+  Sanjana remained still for a second.  “But… there has to be
+  a way to do it directly with voltages… right?”<br/>
+  “Well, yes, there is a way to keep it in terms of voltages,”
+  Professor Lansen explained.  “But it’s still the same thing
+  as just using $\Delta G^\circ$.  Directly subtracting the
+  potentials the way you said is wrong.”<br/>
+  “Then… how do I do it?” Sanjana asked hesitantly.</span></p>
+<p class="c8"><span class="c4">Professor Lansen motioned towards
+  the board.  “How do we express $\Delta G^\circ$ in terms of
+  $E^\circ$?” he asked.  “Write that down.”  Sanjana
+  uncapped one of the black markers and wrote down</span>
+<span class="c4 c6">$\Delta G^\circ =
+  -nFE^\circ$</span><span class="c4">.  “Good,” Professor
+  Lansen said.  “Now divide both sides by $-F$.”  Sanjana
+  wrote:<br/></span><span class="c4 c6">$-\dfrac{\Delta G^\circ}{F}
+  = nE^\circ$</span><span class="c4"><br/>
+  Professor Lansen nodded.  “Good.  So when you scale the
+  reaction, what happens to both sides of your new equation?”<br/>
+  “They also scale?” Sanjana replied.<br/>
+  “Yes.  So you can add and subtract them alongside chemical
+  equations.  And what are the units of each side?” Professor
+  Lansen asked.<br/>
+  “Um…” Sanjana trailed off.  “You said before that $\Delta G$
+  has units of kJ/mol and $F$ has units of C/mol… so it should be
+  J/C?” she asked hesitantly.<br/>
+  “Yes,” Professor Lansen confirmed.  “What’s another way to
+  say joules per coulomb?”<br/>
+  “Is it… volt?” Sanjana ventured.<br/>
+  “Yes,” Professor Lansen nodded.<br/>
+  “So you mean something like this then?” Sanjana asked,
+  writing</span> <span class="c4 c6">$(1)E^\circ =
+  3(-0.04\,\text{V}) - 2(-0.44\,\text{V}) =
+  +0.76\,\text{V}$</span><span class="c3">.<br/>
+  Professor Lansen nodded.  “Yes, and you will find that while
+  this produces the result from your book’s appendix, directly
+  subtracting the potentials like you said earlier, does not.”
+   Sanjana nodded slowly.  “So how about you tell me,”
+  Professor Lansen explained.  “Why is direct subtraction
+  conceptually incorrect?”<br/>
+  Sanjana blinked at the board.  “Is it because there are
+  different numbers of electrons in each half-reaction?”<br/>
+  “Yes,” Professor Lansen replied.  “You need to work
+  explicitly in terms of quantities that scale with the reaction
+  equations, like $nE^\circ$ or $\Delta G^\circ$.  $E^\circ$
+  by itself does not.  Does that answer your
+  question?”</span></p>
+<p class="c8"><span class="c3">Sanjana stared at Professor Lansen
+  for a few seconds.  “Um… yes,” she said quickly, and looked
+  back at the board.  “But…” she trailed off.  After a
+  few seconds, she looked back at Professor Lansen.  “But what
+  are Hammett plots?”<br/>
+  Professor Lansen brightened.  “You mean the stuff Ruth
+  mentioned?” he asked.  Sanjana nodded.  “That’s way
+  beyond this course, though,” he explained.  “How much
+  organic chemistry are you familiar with?”<br/>
+  “Not too much…” Sanjana trailed off hesitantly.<br/>
+  “Then I suggest you wait until you learn some organic chemistry
+  before trying to understand that,” Professor Lansen explained.
+   “But as I said last time, Ruth was bringing up
+  graduate-level physical organic chemistry.  It’s completely
+  fine if you haven’t seen it before.  In fact, I rarely see
+  freshmen come in with this level of knowledge.”<br/>
+  Sanjana shifted uncomfortably and glanced quickly at the board.
+   “But… she also mentioned cyclic voltammetry?  What is
+  that?”<br/>
+  “It’s a technique commonly used in experimental
+  electrochemistry,” Professor Lansen explained.<br/>
+  “But what is it?” Sanjana insisted.  “Is it something
+  someone like me could understand?”<br/>
+  “On a basic level, possibly,” Professor Lansen replied.
+   “But I’d be leaving out a lot of details.”<br/>
+  “Please, I need to know,” Sanjana pressed.<br/>
+  “Well, since you’re insistent, I could explain it briefly,”
+  Professor Lansen replied.  “One basic application of cyclic
+  voltammetry is in the measurement of redox potentials.  For
+  example, if you don’t know the reduction potential of a redox
+  couple, you could start with a solution of either the oxidized or
+  reduced form, and then sweep the potential of an electrode in
+  your solution.  When it gets close to the redox potential of
+  your couple, you’ll see a spike in current due to a redox
+  reaction taking place at the electrode.  Once the current
+  plateaus, you would reverse the potential sweep to assess the
+  reversibility of the redox reaction.”<br/>
+  “I… see…?” Sanjana trailed off.<br/>
+  “It’s far more complicated in practice, though,” Professor Lansen
+  clarified.  “You’d need to consider at least diffusion, as
+  well as the thermodynamics and kinetics of your redox process,
+  like how Ruth did earlier in her diphenylamine
+  example.”</span></p>
+<p class="c8"><span class="c3">Sanjana froze for a second.
+   “Is…” she trailed off.  “Is that what ‘diffusion
+  equations for voltammetry’ is supposed to mean?”<br/>
+  Professor Lansen looked at her curiously.  “Why do you ask?”
+   Sanjana remained silent and frozen.  “Did Ruth mention
+  it?” Professor Lansen asked.  Sanjana gave a small nod.
+   “That’s a more mathematically rigorous way to look at
+  voltammetry.  But again, that’s advanced physical chemistry
+  that’s well beyond the content of this course.”<br/>
+  “I see… but what’s a diffusion equation?” Sanjana pressed.
+   “Is that also too difficult?”<br/>
+  “It depends,” Professor Lansen said.  “Have you taken
+  multivariable, or something like 18.02?”<br/>
+  “I’m taking it right now,” Sanjana said quickly.<br/>
+  “I guess I could explain the basic idea,” Professor Lansen said
+  as he stood up.  “But just keep in mind this is much beyond
+  what you’re expected to know right now.”  Sanjana nodded.
+   Professor Lansen walked to the board.  Sanjana handed
+  him the marker.  Professor Lansen wrote:<br/>
+  $\dfrac{\partial C_i}{\partial t} = D_i \dfrac{\partial^2
+  C_i}{\partial x^2}$<br/>
+  “While the redox process is happening, we need to consider how
+  the concentration of each species depends on both position and
+  time.  In dilute solution, this partial differential
+  equation governs the linear diffusion behavior of each species
+  relative to the bulk, which matters especially when some of the
+  reactions are heterogeneous,” he explained, pointing to the PDE
+  with the marker.  “To actually solve it, you’d need to write
+  the initial and boundary conditions appropriate for your
+  case.”<br/>
+  Sanjana stared at the equation for a few seconds.  “I guess
+  that helps?” she finally ventured.<br/>
+  Professor Lansen nodded.  “Don’t worry if it didn’t all make
+  sense,” he said encouragingly.  “This is advanced material.”
+   He looked at the time.  “I’ve got a meeting in about
+  15 minutes, so we can continue this discussion another time if
+  you want.”</span></p>
+<p class="c8"><span class="c3">“But… is it OK if I asked one more
+  thing?”  Sanjana’s words came out.  “I…” she trailed
+  off hesitantly.  “I’m sorry.”<br/>
+  “If it’s just a few minutes, sure,” Professor Lansen said.
+   “But quickly.”<br/>
+  Sanjana started pacing.  “So CO is neutral, right?” she
+  asked.  “Then can it have formal charges?  Or not?” she
+  said quickly.  “I thought it was -1 and +1 but maybe that
+  doesn’t make sense because it’s neutral so it should be 0 each
+  but when I calculated it didn’t match and—” her words spilled
+  out.<br/>
+  Professor Lansen looked at her quizzically.  “Yes, of
+  course.  This was on your problem set a few weeks ago, and
+  as you found, it should be -1 and +1 in the usual resonance form.
+   Why do you ask?”<br/>
+  “Just no reason,” Sanjana said quickly.  “I just kinda
+  wanted to know.”  She stopped pacing and looked at Professor
+  Lansen.  “But guanidinium can have more than one resonance
+  structure too?” she asked, fidgeting with her sleeves.
+   “Even if they look the same?  Or is it just one?
+   I thought it was 3?”<br/>
+  “Well, yes, there are 3 resonance forms,” Professor Lansen
+  answered.  “This was also on your problem set.”  He
+  paused, watching Sanjana pace and squirm with a confused
+  expression.  “Sanjana, are you OK?” he asked suddenly.<br/>
+  “Y-yes, I’m fine, I’m completely fine!” Sanjana said quickly.
+   “W-why do you ask?”<br/>
+  “It’s just that… these last two things you asked me consist of
+  material I was sure you already understood, and clearly you still
+  do.  So I was just wondering.”<br/>
+  Sanjana’s eyes widened quickly.  “Um no it’s nothing!
+   I’m totally fine.”<br/>
+  “It’s OK if you want to talk about anything.  Anyone could
+  be rattled by the recent supervillain attacks.  I’m still
+  processing it myself.”<br/>
+  “N-no it’s OK,” Sanjana said quickly, still pacing and fidgeting.
+   “I’m sorry, I won’t take any more of your time.”<br/>
+  “No worries,” Professor Lansen said encouragingly.  “If you
+  want to talk, I’m here to talk.”</span></p>
+<p class="c8"><span class="c4">Sanjana nodded quickly and rushed
+  out the door.  She walked quickly down the hallway, staring
+  at the reduction potential table in her open notebook.  “I
+  was right?” she asked herself.  “Professor Lansen said… but
+  then what…”  Images flashed through her
+  head:<br/></span><span class="c4 c6">Professor Lansen saying “Ruth
+  is graduate-level… I rarely see freshmen like her… far more
+  complicated… like how Ruth did…”</span><span class="c4"><br/></span><span class="c4 c6">Ruth drawing the structure of
+  guanidinium in her notebook while Sanjana held out her own
+  notebook with the structure already on it.  “Ruth… see?”
+  Mira’s voice came.  “You still put that together so fast!”
+   </span><span class="c4"><br/>
+  Sanjana backed against the corridor wall.  “But then… why
+  did Ruth…” she trailed off.  Images flashed through
+  again.<br/></span><span class="c4 c6">Ruth squeaking and shaking
+  in Sanjana’s arms.  “Ruth… please… you’ll be fine,” Sanjana
+  said, holding her tighter…  Ruth curled into a tiny, quaking
+  ball on the floor while squeezing a plushie that dwarfed her
+  figure, squeaking and whimpering breathlessly…  Ruth
+  shattering into pieces.    </span> <span class="c4"><br/></span><span class="c4 c6">Ruth shaking violently on top
+  of her notebook, her face crumpling the pages with a loud
+  crackle, as a piercing, high pitched whimper escaped.
+   Sanjana gasped and stroked Ruth’s quaking back.
+   “Ruth… please don’t cry?  Please?” she
+  begged.<br/></span><span class="c4">“Why can’t I just be happy for
+  Ruth… when she suffers so much…” Sanjana whispered to herself.
+   “Am I…?”  The sequence completed.<br/>
+  “</span><span class="c4 c6">Ruth… please don’t cry?
+   Please?” she begged.  “He doesn’t deserve to be near
+  you.”<br/>
+  Sanjana glaring at Elliot.  “What is wrong with
+  you?”</span><span class="c3"><br/>
+  “After what I’ve done?” Sanjana asked herself.  “No,” she
+  said as her eyes widened at the floor.  Her hands clenched
+  her notebook, crinkling the page.  “I can’t ask anyone…
+  a-anyone at all…”<br/>
+  A dark purple akuma flew in from over her and merged with her
+  open notebook, turning it black.</span></p>
+<p class="c8"><span class="c4">The butterfly mask appeared in
+  front of her face.<br/></span><span class="c4 c6">The camera zooms
+  into Sanjana’s mind, in which she stands with her notebook in the
+  same posture, in an otherwise empty purple
+  mindscape.</span><span class="c4"><br/>
+  Lepidon appeared in front of Sanjana as a black, faceless
+  silhouette of Argus.  “Hello.”  Sanjana looked up.
+   “Forgive my intrusion, but I felt a great deal of anger
+  underneath your confusion,” Lepidon continued.<br/>
+  “No I’m not, I can’t be—” Sanjana said quickly.  “Ruth’s
+  already suffered so much, and she’s still so sweet and kind… I’m
+  horrible for feeling this!  Horrible for thinking this…”<br/>
+  “Thinking what?” Lepidon asked.<br/>
+  “I don’t know!” Sanjana said.  “Professor Lansen said I was
+  right, but Ruth is graduate-level already!”<br/>
+  The projection of Lepidon reappeared behind Sanjana, and pointed
+  at the reduction potential table in the notebook.  “So did
+  she help you?  Or did she mislead you?”<br/>
+  “She just—” Sanjana started.  “She was just hurt and
+  scared!”<br/>
+  Lepidon reappeared in front of Sanjana. “But if she didn’t help
+  you, who did?”<br/>
+  “The professor,” Sanjana replied.<br/>
+  “So you can help your friends now, right?”<br/>
+  Sanjana’s eyes widened.  “No, I can’t—”<br/>
+  “Why not?” Lepidon asked.<br/>
+  “But… Ruth…” Sanjana pressed her notebook closer.  “I can’t
+  hurt Ruth…”<br/>
+  “Is that why?  Or are you afraid?” Lepidon pressed.
+   Sanjana looked up.  The Argus silhouettes doubled.
+   “Afraid they’d attack?”  They doubled again,
+  surrounding her.  “Afraid you’d be next?” They doubled
+  again, larger this time, and his voice grew louder and deeper.
+   The 8 silhouettes pointed at Sanjana.  “So you broke
+  the only person who knows what it’s like!”<br/>
+  “YOU DON’T KNOW WHAT IT’S LIKE!” Sanjana snapped violently,
+  clenching her fists at the silhouettes.  The notebook fell
+  beside her.  “YOU DON’T KNOW ANYTHING!” she screamed.<br/>
+  The silhouettes reappeared as a single projection in front of
+  her.  “And neither do they,” Lepidon said, quieter.
+   “Unless they repeat your experiment.”<br/>
+  “How?” Sanjana demanded.  “They won’t just do that!”<br/>
+  Lepidon gestured at Sanjana’s notebook.  “Your anger was
+  strong enough to help you verify what you needed.  It’s
+  easily powerful enough to make them do the same.”  The
+  projection reappeared beside her.  “If you want, I could
+  show you this power.  What do you say?”<br/>
+  Sanjana turned her head towards the projection.  “Fine.
+   Then I’ll make them.”<br/>
+  Lepidon reappeared looming behind her, with Sanjana standing in
+  his open palm.  “And what should I call you?”<br/>
+  Sanjana straightened.  “Null Hypothesis.”  Lepidon’s
+  palm closed.<br/></span><span class="c4 c6">The camera zooms out
+  of Sanjana’s mind into the real world.<br/></span><span class="c3">A dark purple mist surrounded Sanjana, and when it receded,
+  Null Hypothesis stood holding a cardboard-colored
+  boomerang.</span></p>
+<p class="c15"><span class="c5 c4">Skip to the first floor of the
+  Stata Center (Building 32).</span></p>
+<p class="c8"><span class="c3">Mira, Darren, Claire, Paige and
+  Eric clustered around one of the many tables.<br/>
+  “Are you sure Ruth will be fine?” Eric asked concernedly.
+   “She seemed pretty _.”<br/>
+  “I hope so,” Mira said.  “But at least Lucy’s with her.”<br/>
+  “Where’s Ruth?” a voice demanded.  The group turned around.
+   Null Hypothesis stood behind them, holding her
+  boomerang.<br/>
+  “She’s recovering with Lucy,” Mira said.  She glanced at
+  Null Hypothesis.  “Wait, Sanjana, what happened to you?”<br/>
+  “Remember the electrochem thing Ruth helped me with?” Null
+  Hypothesis asked.  Mira nodded.  “Well, I asked Lansen.
+   Turns out I was right!”<br/>
+  “That’s good, right?” Mira asked.<br/>
+  “But that means Ruth wasn’t!” Null Hypothesis finished.
+   “How?”<br/>
+  “Sanjana, please, she was just scared again,” Claire said.
+   “We all know electrochem is easy for her.”<br/>
+  “Then check that!” Null Hypothesis replied.  She threw her
+  boomerang, which struck Claire, and then Eric.  An orange
+  outline glowed around Claire, and a blue outline glowed around
+  Eric.<br/>
+  Claire turned abruptly toward Eric.  “Eric, you heard
+  Lansen, right?  He said Ruth did really advanced
+  electrochemistry.”<br/>
+  Eric turned abruptly to face her.  “Yeah, he did.  I
+  was there with you.”<br/>
+  The outlines blinked green, then faded from them both.  <br/>
+  Claire turned toward Null Hypothesis.  “What the heck was
+  that?”<br/>
+  “I’m just trying to make sense of things!” Null Hypothesis
+  insisted.<br/>
+  “Sanjana, just calm down,” Paige said.  “It’s fine if you
+  don’t understand everything Ruth does.  We don’t
+  either.”<br/>
+  “We don’t understand how to add half reactions?” Null Hypothesis
+  retorted.<br/>
+  “We understand that, I think?” Paige said.<br/>
+  “Then verify that!” Null Hypothesis threw her boomerang.  It
+  struck Paige and then Mira, and an orange light bordered Paige,
+  and a blue light around Mira.  Null Hypothesis pulled the
+  notebook page containing her reduction potential table out of her
+  boomerang and placed it in front of them.<br/>
+  Paige and Mira mechanically settled down in the chairs in front
+  of them.<br/>
+  “Guys, let’s all just calm down,” Darren said.  “Ruth’s
+  still hurting right now.”  He turned to Mira.
+   “Speaking of which, Mira, shouldn’t we check on Ruth?”<br/>
+  Mira ignored him.  “Didn’t we do something like this
+  earlier?” she asked Paige.<br/>
+  Paige nodded.  “Yeah, we’re supposed to use Hess’ Law or
+  something.”<br/>
+  Mira reached out and swiped a pen from Eric’s hand.  “With
+  $\Delta G$, right?”<br/>
+  Darren reached towards Mira’s shoulder.  “Mira, snap out of
+  it!”  The blue outline around Mira materialized into a blue
+  barrier that repelled Darren away, before returning to a border
+  around Mira just as quickly.<br/>
+  “What did you do to them?” Claire demanded.  A few
+  surrounding heads turned.<br/>
+  “I made them check!” Null Hypothesis said.  “I can help you
+  check too!”  She aimed her boomerang.</span></p>
+<p class="c8"><span class="c3">“Not like this!”  A yoyo
+  wrapped around Null Hypothesis and pulled her backward.
+   Null Hypothesis went flying past Scarletbug.  The yoyo
+  unwrapped and returned to Scarletbug.<br/>
+  “And how do you know?” Null Hypothesis asked.<br/>
+  Scarletbug swung her yoyo again.  Null Hypothesis jumped
+  upwards, out of the path of the yoyo.  “I don’t!” Scarletbug
+  said.  “And neither do you!  So let’s not do something
+  hasty!”   Null Hypothesis landed a bit further back.
+   Around them, heads turned toward the battle.  At the
+  table, Mira typed at a calculator without looking up.<br/>
+  “Exactly!” Null Hypothesis said.  “I don’t know, you don’t
+  know, nobody knows!”<br/>
+  Scarletbug jumped over Null Hypothesis and landed right behind
+  her.  “Then at least let them decide for themselves?”<br/>
+  Null Hypothesis whipped around.  “That’s what I’m doing!
+   I’m helping them decide!”<br/>
+  At the table, Mira looked at Paige.  “OK so we got $+0.76 \,
+  \text{V}$.  That makes sense.”<br/>
+  “Yeah, it does,” Paige replied.  “We clearly know how to do
+  it.”<br/>
+  The outlines around them turned green, then vanished.  Mira
+  and Paige blinked.<br/>
+  “Sanjana, what was the point of that?” Mira said indignantly to
+  Null Hypothesis.<br/>
+  Null Hypothesis jumped all the way over to Mira.  “To prove
+  that you know it!  Which you do!”  Scarletbug landed in
+  between them and reached for the boomerang.  Null Hypothesis
+  jumped away.  “Yet Ruth told me to subtract the potentials
+  directly!”<br/>
+  “Ruth?” Paige asked.  “Are you sure?”<br/>
+  “Yes!” Null Hypothesis said.  “She even confirmed it
+  herself!”<br/>
+  “Maybe she got scared again?” Mira ventured.  “Sanjana, you
+  know she can do so much more!  She just needs to feel safe
+  enough to show it.”  <br/>
+  “Then check that!  That’s sure to help Ruth!” Null
+  Hypothesis jumped above Scarletbug’s level and threw the
+  boomerang at Mira.  Scarletbug jumped up and reached for the
+  boomerang as it approached.  The boomerang curved upwards
+  around Scarletbug and flew straight to Mira.  The boomerang
+  struck, marking her with an orange outline.  The boomerang
+  circled around, marking Eric with a blue outline.  The
+  boomerang circled back.  Scarletbug caught the boomerang in
+  midair and squeezed it tightly as it struggled against her grip.
+   “That’s enough, Sanjana!”<br/>
+  Null Hypothesis reached out as if summoning the boomerang.
+   “Sanjana just got stuck all the time!  Now that I’m
+  Null Hypothesis, nobody has to be stuck!”  She jumped back
+  and reached out harder.  The boomerang wrenched itself free
+  and zipped into her hand.  Null Hypothesis leapt out the
+  door.  Scarletbug followed.</span></p>
+<p class="c8"><span class="c4">Eric looked at Mira.  “Ruth
+  is with Lucy, right?”<br/>
+  “Yeah, they’re on the fourth floor,” Mira said.  They nodded
+  and started walking.<br/>
+  Claire stood up.  “Wait!  Ruth’s still hurt.
+   Shouldn’t we give her space?”<br/>
+  Mira turned around.  “It’s just us.”  Claire blinked at
+  Mira.  “Don’t worry, we’ll be careful.” Mira added.
+   They continued walking down the study room.<br/>
+  Claire took a step forward.  Darren put his arm in front of
+  Claire.  “That won’t work.  You’ll just get pushed
+  back.”<br/>
+  “Then what are we supposed to do?” Claire objected.  “Just
+  sit here?”<br/>
+  “We all saw how she was.  Maybe we should just give her
+  space?” Paige ventured.  Darren and Claire looked at her.
+   “Lucy’s already with Ruth,” Paige continued.  “We can
+  go up in a bit.”<br/>
+  Claire sat down.  “Fine, but I’m at least warning Lucy.”
+   She pulled out her phone and began typing.</span></p>
+<p class="c15"><span class="c5 c4">The camera cuts to the Fourth
+  Floor Commons room in Building 32.</span></p>
+<p class="c8"><span class="c4">Ruth sat against the wall, with
+  her knees up and her arms loosely wrapped around them.  Her
+  head was slightly down, and her soft pink oversized backpack
+  leaned against her body.  Her phone lay between her and the
+  backpack.  Beside her, Lucy sat with her legs stretched in
+  front of her and her backpack across her lap.<br/>
+  “Ruth… Sanjana didn’t mean to upset you.  She’s worried
+  about you.  We all are.”<br/>
+  “I…” Ruth trailed off.  “I-I’m s-sorry.”<br/>
+  “No, no, it’s OK,” Lucy said quickly.  “We’re all here if
+  you need us.  Just take your time.”<br/>
+  Both Lucy’s and Ruth’s phones chimed.  Ruth’s head turned
+  towards her phone’s notification screen and remained still for a
+  few seconds.  Then she looked back at the floor in front of
+  her.  Lucy reached for her pocket.  Ruth glanced
+  quickly at Lucy.<br/>
+  “L-Lucy?” Ruth said quietly.<br/>
+  Lucy’s hand fell to her lap.  “Yes, Ruth?”<br/>
+  Ruth’s head turned towards the floor again.  “I… I t-think
+  I’m ready now.”<br/>
+  Lucy’s expression softened.  “Are you sure?”  Ruth gave
+  a tiny nod.  “OK… but you don’t have to push yourself.
+   We’ll wait for you.”<br/>
+  “I t-think I want to go back now…” Ruth trailed off.
+   “Please?”<br/>
+  “Okay,” Lucy said, standing up.  “We can take it slowly.”
+   Lucy offered her hand.<br/>
+  Ruth quickly slipped her phone into her pocket and shouldered her
+  oversized backpack.  Lucy helped her up, then made her way
+  towards the exit.  Ruth shuffled close behind.</span></p>
+<p class="c15"><span class="c5 c4">The camera cuts to the first
+  floor in front of the Building 32 elevator.</span></p>
+<p class="c8"><span class="c4">The elevator doors opened,
+  revealing Lucy and Ruth inside.<br/>
+  “Oh, hi Mira.  Hi Eric.  Everything OK?” Lucy
+  asked.<br/>
+  Mira and Eric walked towards them, with their borders still
+  glowing around them.  “We just came to see Ruth,” Mira said.
+   “Is she OK?”<br/>
+  Lucy and Ruth stepped out of the elevator.  “Ruth said she
+  wanted to rejoin you.”  Lucy looked at Ruth.  “Ruth?”
+  she asked.  Ruth gave a tiny nod.<br/>
+  Mira exhaled in relief.  “We’re so glad to hear that!
+   But also, do you mind helping with something?”<br/>
+  “W-what is it?” Ruth said hesitantly.<br/>
+  “You know the stuff you showed us before?” Mira asked.
+   “Could you… like… teach us some of it?  Now that
+  you’re feeling better?”<br/>
+  “I—” Ruth started.  She glanced at the group across the
+  room, and then down at the floor, and clasped the straps of her
+  oversized backpack.<br/>
+  “Maybe going back would help?” Lucy asked.  Ruth gave a tiny
+  nod.</span></p>
+<p class="c15"><span class="c5 c4">The camera skips to the
+  group’s table.</span></p>
+<p class="c8"><span class="c3">Ruth and Lucy approached alongside
+  Mira and Eric.  Claire looked at the four.  “Um, Lucy,
+  is everything OK?  Why is Ruth here?”<br/>
+  “Yes?” Lucy said.  “Ruth wanted to rejoin us, so I
+  accompanied her back.  Why?  What’s wrong?”<br/>
+  “Did you not see my message?” Claire exclaimed, pointing to the
+  borders of light around Mira and Eric.  “Sanjana’s been
+  akumatized and now Mira and Eric are under some sort of
+  spell!”<br/>
+  “Wait, what?” Lucy exclaimed, looking at Mira and Eric.
+   “Maybe we should go back up?”<br/>
+  “I—” Ruth started.<br/>
+  “Ruth?” Lucy asked.<br/>
+  “I… I t-think I just want to stay…” Ruth said quietly.<br/>
+  “Are you sure?” Lucy asked.<br/>
+  Ruth gave a tiny nod, and let her soft pink oversized backpack
+  slip from her shoulder onto the large bench below.  The four
+  took their seats on the bench, opposite Darren, Paige and Claire,
+  with Eric on the outside sitting next to Mira, and Ruth sitting
+  between Mira and Lucy.</span></p>
+<p class="c8"><span class="c4">“Ruth?” Mira ventured.  “If
+  you want?”<br/>
+  Ruth partially unzipped the middle compartment of her backpack
+  and pulled out her notebook and box of meticulously arranged gel
+  pens.  She delicately opened it to the page containing the
+  conditional solubility expression and the associated equilibria,
+  the diphenylamine mechanism and some diffusion equations and
+  voltammogram plots.<br/>
+  “Yes!” Mira said.  “Something like that, maybe?” she asked,
+  pointing to the $K_{sp}’$ expression.<br/>
+  “It’s…” Ruth trailed off.  “I-it’s just a s-solubility…”<br/>
+  “But we don’t understand, how did you get it?” Eric asked.
+   Ruth opened her box and grabbed a few gel pens at once.<br/>
+  “I—” Ruth started.  Her hand hesitated over her page, then
+  fell onto her notebook.<br/>
+  “Maybe this would help?” Eric asked.  He tore a piece out of
+  his notebook, and slid the blank page in front of Ruth.<br/>
+  “It’s just…” Ruth trailed off.  She slowly copied the
+  expression from her notebook in the same colors:<br/>
+  $$K_{sp}’= K_{sp}
+  \color{blue}{\left(\frac{1}{\alpha_{\ce{PO4^3-}}} \right)^2}
+  \color{red}{\left(1 + K_f[\ce{NH3}]^4\right)^3}$$.<br/>
+  “T-then</span> <span class="c4">you j-just</span><span class="c3"> have to s-solve it…” Ruth finished.<br/>
+  “But how did you get that?” Mira asked.  “I don’t see what
+  you’re solving?”  Ruth set the gel pens on the table.<br/>
+  “It’s just…” Ruth trailed off.  She reached out and pulled
+  the notebook to her chest.  “It’s…”<br/>
+  “Ruth?” Mira asked.  Ruth remained motionless.  <br/>
+  “Maybe you could just show us the concept first?  Maybe tell
+  us what each piece is?”   Eric ventured. Ruth ducked her
+  head and her body started trembling.<br/>
+  “Ruth, it’s OK,” Lucy said, placing her hand on Ruth’s trembling
+  shoulder.  “We could do this later if you want.”<br/>
+  “But she was doing so well before!”  Mira looked at Ruth.
+   “Please, Ruth?”  Ruth tucked her chin into her
+  body.<br/>
+  “Maybe she just needs some space?” Paige asked.<br/>
+  “Mira has a point, though,” Claire said.  “She just needs to
+  overcome her shyness again.”  She looked at Ruth.
+   “Come on, Ruth.  We know you can do it.”  Mira
+  and Darren nodded.<br/>
+  “Yes, Ruth, just show us, please?” Mira insisted.  “Come on,
+  Ruth, please?”<br/>
+  Ruth’s breath caught.  She pressed herself a little into
+  Lucy, trembling against Lucy’s body.  A tiny sound escaped
+  her throat.<br/>
+  “Mira!  Be careful!” Lucy said, alarmed.  “Don’t you
+  remember what Elliot did to her?”  She wrapped one arm
+  around Ruth’s back.  “Ruth… it’s OK,” she said quickly.<br/>
+  “We’re just trying to help!” Mira exclaimed indignantly at Lucy.
+   “Please, Ruth?”  Ruth leaned slightly into Lucy’s arm.
+   Lucy pulled Ruth slightly closer.<br/>
+  “But can’t you see what you’re doing to her?” Paige insisted.
+   “Maybe stop pressuring her right now?”<br/>
+  “But she wanted to come back!  She even tried to show us!”
+  Mira objected.  “We’re just encouraging her.”<br/>
+  Paige looked uneasily at Ruth, Lucy and Mira, then typed on her
+  phone.  Phones chimed in unison across the circle.  An
+  awkward silence hung between them for a few seconds.</span></p>
+<p class="c8"><span class="c3">A thump landed beside them.
+   “Seriously, Paige?”  The group looked up.  Null
+  Hypothesis landed beside them, holding her phone in one hand and
+  the boomerang in the other.  “Me?  Treating Ruth like
+  Elliot?” she demanded, pointing at her phone.  She shoved it
+  in her pocket.  “What is wrong with you?”  She looked
+  at Mira and Eric, who still had their outlines.  “I thought
+  you’d have resolved it by now!  What happened?”<br/>
+  “Ruth’s just—” Mira started.<br/>
+  “We’re trying—” Eric interrupted.<br/>
+  Heads turned again.<br/>
+  “Ruth already feels safe with you.  Just help her out of her
+  shell, like you’ve done before!” Null Hypothesis exclaimed.
+   “How hard can this be?”<br/>
+  Scarletbug and Knightclaw landed on the mezzanine above.
+   “Steady,” Knightclaw said.<br/>
+  “Do you not see what you did to Ruth?” Lucy snapped, holding Ruth
+  tighter.  “How’s she supposed to show anything right
+  now?”<br/>
+  “And yet she still did chemistry, even with Elliot right next to
+  her!” Null Hypothesis shot back.  “That can’t be it!”<br/>
+  “She was just helping Elliot, not being forced to prove herself!”
+  Lucy retorted, pointing at Ruth’s notebook with her free hand.
+   “Elliot couldn’t do any of this!  Even now he still
+  can’t!”<br/>
+  “Not yet,” Knightclaw said to Scarletbug.<br/>
+  “Then check that yourself!”  Null Hypothesis threw her
+  boomerang.  It struck Lucy, marking her with an orange
+  border, then ricocheted out the room.<br/>
+  “Now!” Knightclaw whispered.  They jumped off, landing on
+  either side of Null Hypothesis.  Scarletbug swung her yoyo.
+   Null Hypothesis dodged.  A black staff sped past her.
+   Null Hypothesis caught it.  Knightclaw smirked.
+   The staff shot back, sending Null Hypothesis flying into
+  him.  Knightclaw stood firm, grinding Null Hypothesis to a
+  halt.<br/>
+  “Good plan, Scarletbug!” Knightclaw said, inspecting Null
+  Hypothesis.  “But… I can’t find it!”<br/>
+  “What?  How?” Scarletbug asked.<br/>
+  Lucy looked towards the door.  “Right.  I should.”
+   She released her embrace and stood up.  Ruth’s eyes
+  widened as her body toppled sideways and softly hit the bench
+  where Lucy was sitting.  The group froze and stared at Lucy,
+  who stepped over the bench.  Ruth turned her head at Lucy,
+  whose back was already turned.  A momentary glare flashed
+  across her eyes.  Lucy glanced at the group.  “What?
+   I’ll be right back.”  She continued walking towards
+  the exit.</span></p>
+<p class="c8"><span class="c3">Null Hypothesis wrenched herself
+  free from Knightclaw.  “You’re not helping!  How hard
+  can just one verification be?”<br/>
+  Lepidon spoke into her head.  “Maybe the problem is with the
+  verifiers.  What if you asked someone more qualified with
+  this type of chemistry?  Someone with competition
+  experience, perhaps?”<br/>
+  Null Hypothesis lit up.  “Yes, that might help.”  She
+  addressed the bystanders.  “Does anyone here have chemistry
+  competition experience?”<br/>
+  “Norman made USNCO camp!  Twice!” one of the nearby students
+  said, pointing to Norman.<br/>
+  The end of Knightclaw’s staff slammed the floor.  Null
+  Hypothesis jumped out of the way, and caught the boomerang that
+  came spinning through the entrance.  <br/>
+  “Norman!” Null Hypothesis shouted.  “Can you help them with
+  Ruth’s notebook?”<br/>
+  Paige helped Ruth back up.  “Ruth… I’m so sorry,” she said.
+   “Are you OK?”  Ruth remained silent and trembling.<br/>
+  “Sure.”  Norman walked over to Mira and Eric.  “What’s
+  the problem?”<br/>
+  Eric pointed to the $K_{sp}’$ expression in Ruth’s notebook.
+   “Oh, this is just conditional solubility,” Norman
+  explained.  “You just need to use the mass balances for Cd
+  and phosphate.”<br/>
+  “Oh.  So that’s what we’re supposed to—” Eric said.<br/>
+  “Ruth did all of this,” Claire interrupted.  “Professor
+  Lansen said she was graduate-level!”<br/>
+  “Did she do any competitions?” Norman asked.  Ruth reached
+  out and pressed the edge of her notebook against her chest.
+   Mira and Eric shrugged.  “I’m surprised,” Norman said.
+   “Really surprised.”<br/>
+  Scarletbug’s yoyo sped across the mezzanine.  Null
+  Hypothesis jumped up, hitting the ceiling.  Knightclaw’s
+  staff pinned her arm.<br/>
+  “Oh, did someone need chemistry help again?” Avinash asked,
+  approaching the group with Alan.<br/>
+  “Oh, hi Avinash,” Norman said quickly.<br/>
+  “Um, not really,” Claire said quickly.  “Ruth’s going to
+  explain it.”<br/>
+  Null Hypothesis kicked off the ceiling and slammed into a roll on
+  the ground.<br/>
+  Avinash looked at the notebook.  “This?  This is just
+  some homocoupling and reading a CV.  What’s so hard about
+  this?”<br/>
+  “Yeah, we already did voltammetry on the IChO!” Alan said to
+  Avinash.  “Can’t be that hard.”<br/>
+  Ruth pressed harder.  The notebook slipped from the table
+  and onto her lap.<br/>
+  Paige stroked Ruth’s trembling back.  “Ruth’s just scared
+  right now!  She understands this too!”<br/>
+  “Okay,” Avinash smirked.  “Then why does she need me to
+  explain it to her?”<br/>
+  “Come on, Ruth, please,” Mira begged.  “Show them you can do
+  this too.”<br/>
+  Ruth’s trembling spiked.  “I—” Ruth started.  “I—
+  I—”</span></p>
+<p class="c8"><span class="c4">Scarletbug and Knightclaw landed
+   on either side of Null Hypothesis, and lunged for her arms.
+   The butterfly mask appeared on Null Hypothesis’ face.
+   “Be careful, Null Hypothesis,” Lepidon said.  “Don’t
+  stay indoors too long, or the superheroes will corner you.”<br/>
+  “Then what am I supposed to do?” Null Hypothesis objected.<br/>
+  “Chemistry isn’t the only class where this happened.  It
+  happened</span> <span class="c4">in 8.01</span><span class="c3">,
+  18.01 and a HASS class too.”<br/>
+  “How do you know this?” Null Hypothesis asked.<br/>
+  “Well, don’t take my word for it,” Lepidon said.  “Check it
+  yourself.”  <br/>
+  Null Hypothesis leapt towards the door.  A yoyo wrapped
+  around her.  “Not this time!” Scarletbug called.
+   Knightclaw landed in front of her.<br/>
+  “Really?” Null Hypothesis asked.  She yeeted her boomerang
+  backwards at Scarletbug, marking her orange, and then it circled
+  around and hit Knightclaw, marking him blue.  “See for
+  yourself!”<br/>
+  Scarletbug’s yoyo released as she started walking towards
+  Knightclaw.  Null Hypothesis bounded out the exit.<br/>
+  “I guess not!” Scarletbug called out to Knightclaw.
+   Knightclaw nodded.  The borders around them turned red
+  and disappeared.  They both bounded through the
+  exit.</span></p>
+<p class="c8"><span class="c3">Ruth grasped at the gel pens on
+  the table and shakily spilled them on top of their empty slots in
+  her box.  Her body folded over as she tried to reach
+  them.<br/>
+  “Ruth!  Careful!” Paige reached out and grabbed two of the
+  pens.  Darren grabbed the other.  Paige quickly placed
+  the gel pens in their slots, and Darren followed.  “Ruth…
+  it’s OK.”  Ruth reached out and snapped the box of gel pens
+  shut, sending it skidding towards her.  As she turned and
+  dropped it into her backpack, the notebook slipped from her lap
+  and onto the floor.<br/>
+  “Ruth… it’s OK,” Paige insisted as she shifted closer to
+  Ruth.<br/>
+  Darren stood up, swiftly picked up the notebook and slipped it in
+  Ruth’s backpack.  Paige inched away as Ruth hugged her open,
+  soft pink oversized backpack.  Ruth swung it to where Paige
+  was once sitting, and buried her face into it.<br/>
+  “Ruth…” Mira trailed off.<br/>
+  “Come on, Avinash,” Alan said to Avinash.  “Let’s not waste
+  our time here.”  They walked away together, and Norman left
+  for his seat.</span></p>
+<p class="c8"><span class="c3">Elliot and Lucy walked up to the
+  group, outlined by blue and orange borders, respectively.<br/>
+  “Here,” Lucy said, pointing to the sheet of paper on which the
+  multicolored $K_{sp}’$ expression was written.  “Can you do
+  any of this?”<br/>
+  Ruth raised her head and peeked at them from behind the backpack,
+  then quickly lowered her head.  Her arms suddenly squeezed
+  her oversized backpack, squishing it into her face.<br/>
+  “Um… I think so,” Elliot said.  Lucy handed him a pen.
+   “You need to rewrite it in terms of fractions of total
+  concentrations.”  Elliot wrote:<br/>
+  $$K_{sp}’ = c_{\ce{Cd}}^3c_{\ce{PO4}}^2 = \left(
+  \dfrac{[\ce{Cd}^{2+}]}{\alpha_{\ce{Cd}^{2+}}} \right)^3 \left(
+  \dfrac{[\ce{PO4^{3-}}]}{\alpha_{\ce{PO4^{3-}}}} \right)^2 =
+  K_{sp} \left( \dfrac{1}{\alpha_{\ce{Cd}^{2+}}} \right)^3 \left(
+  \dfrac{1}{\alpha_{\ce{PO4^{3-}}}} \right)^2$$<br/>
+  “Then you use the expressions for each,” he finished.<br/>
+  “That looks close enough to Ruth’s equation,” Lucy said.
+   “So you really can do some of this, then.”<br/>
+  “Yes,” Elliot confirmed.  The borders around Elliot and Lucy
+  turned red, then disappeared.<br/>
+  Mira blinked at Elliot and Lucy, then turned to Eric.  “So?”
+  she asked Eric.<br/>
+  Lucy immediately sat down in between Paige and Ruth’s oversized
+  backpack.  “Ruth, I’m so sorry!”  Ruth inched away from
+  Lucy, along with her backpack.  Lucy’s expression faltered.
+   “Ruth… Ruth, I’m sorry!  Please Ruth, please?” she
+  begged.  Ruth inched further away from Lucy, squeezing her
+  oversized backpack harder into her face.  “Ruth…” Lucy
+  trailed off.<br/>
+  “What if…” Mira trailed off.  “What if Ruth wouldn’t show us
+  anything even if she did feel safe?  I mean, she really did
+  feel safe with us when she came back, but she didn’t really do
+  much.”<br/>
+  Ruth’s arms strained as she crushed her soft pink oversized
+  backpack into her face.<br/>
+  “What if she would?” Eric asked.  “But you’re right… I don’t
+  think we know.  Maybe she wouldn’t.”<br/>
+  The glowing borders around Mira and Eric turned gray, then
+  disappeared.<br/>
+  Mira looked at Ruth.  “Ruth…?”<br/>
+  Ruth shoved the notebook and box of gel pens that protruded from
+  her backpack and yanked the zipper shut.  Without warning,
+  she pushed past Mira and Eric, grabbed her backpack, and scurried
+  towards the exit.<br/>
+  “Ruth!” Paige exclaimed.  Mira stood up scanning for Ruth.
+   But Ruth was already gone.  </span></p>
+<p class="c15"><span class="c4 c6">Battle scene: Null Hypothesis
+  vs Scarletbug and Knightclaw.  The heroes continue their
+  attempts to try to find her akumatized object and reason about
+  her pattern, and realize that it must be a similar situation as
+  in Registrar’s akumatization.  If a villain insists they
+  have to hit a bunch of separate places, there’s probably a reason
+  and a pattern, and given Ruth’s proximity to the fight, this is
+  probably a correct line of reasoning.  Scarletbug tries the
+  same trick as before, but this time she catches the boomerang
+  before it finishes tagging someone, binding Scarletbug again.
+   So Knightclaw covers her.  Scarletbug realizes it’s
+  not as straightforward as she thought and summons her Lucky
+  Charm, which is a lacrosse net.  This gives her a clue about
+  the akumatized object: they’ve been spending so much time
+  searching for an akumatized object on Null Hypothesis’ person
+  that they didn’t realize that the boomerang itself</span>
+<span class="c4">is</span><span class="c5 c4"> the
+  akumatized object.  The akumatized object is mobile, meaning
+  that it’s harder to snatch at close range, but easier to
+  intercept when already thrown.  But given Null Hypothesis’
+  geographical pattern, Scarletbug devises a plan: Knightclaw takes
+  Building 26 (physics) while Scarletbug takes math (Building 2)
+  and lit (Building 14).  Offscreen, Scarletbug checks
+  literature first, but after finding nothing there and hearing
+  from Knightclaw that he’s occupied in 26, uses the time to
+  recharge so that she’s not constrained by the 5 minute time
+  limit.  So she patrols from the roof, waiting for Null
+  Hypothesis to come to her.</span></p>
+<p class="c15"><span class="c5 c4">The camera shows the butterfly
+  card to skip to the common space in Building 2.</span></p>
+<p class="c8"><span class="c4">Laurel, Tia and Owen sat around an
+  empty couch.  Ruth came running in, carrying her soft pink
+  oversized backpack on her back.<br/>
+  “Ruth!” Laurel exclaimed.  The others looked up.
+   Laurel moved towards Ruth and stood in front of the
+  couch.<br/>
+  “P-pl-ease,” Ruth gasped breathlessly.  Her knees buckled
+  and she collapsed into Laurel.  “I-I’m s-so s-scared.”
+   Laurel swayed and abruptly sat down on the couch.  The
+  soft pink oversized backpack swung to one side, as Ruth crumpled
+  halfway into a trembling ball on top of her.<br/>
+  “Ruth, are you OK?” Laurel asked.  “What happened?”<br/>
+  “We came as soon as we could!” Tia said moving closer to them.
+   “You said an akumatized villain was after you?”<br/>
+  “Y-yes,” Ruth stammered breathlessly.  She buried her face
+  into Laurel’s shoulder.  “S-she t-th-inks I am dumb.
+   S-she wants to h-h-hurt m-me.”<br/>
+  “No, no, no, you’re not dumb,” Tia said quickly.  “Remember
+  when you brought up all the differential forms stuff in 18.01
+  office hours last week?  Could Hazel do it?  Absolutely
+  not!  Could any of us do it?  No!  But you
+  could!”<br/>
+  “Ruth, please don’t say that?” Owen said gently.  “We’re so
+  worried about you.  All of us.”<br/>
+  “I-I’m s-sorry,” Ruth stammered.  Her breathing started to
+  steady.  “T-thank y-ou.”<br/>
+  Ruth’s phone buzzed.  She quickly whipped it out.  A
+  message read from</span> <span class="c4 c6">Physics 8.01 Study
+  Buddies</span><span class="c4">:</span> <span class="c4 c6">Ruth,
+  are you OK?  There’s an akumatized villain making us check
+  that you know all this angular momentum and multiplet stuff you
+  showed us before.  Can you come over?  Some of us need
+  to know.<br/></span><span class="c3">Ruth shoved the phone into
+  her pocket and squeezed Laurel tighter, quivering on her.
+   “Ruth?” Laurel asked.  “What happened?”<br/>
+  “J-just s-some of m-my friends,” Ruth squeaked.  “I t-told
+  them I was f-fine.  I-I d-didn’t w-want them to
+  w-worry.”<br/>
+  “You’re so brave, Ruth,” Tia said tenderly.  “Even when
+  you’re hurt.”  Ruth loosened around Laurel.</span></p>
+<p class="c8"><span class="c4">The window shattered beside them.
+   Ruth flinched on Laurel.  The group jumped.
+   Nearby students turned their heads.  Null Hypothesis
+  barged in.  “Again?”<br/>
+  Tia stood between Null Hypothesis and Ruth.  “So you’re the
+  akumatized villain that hurt her like this!”<br/>
+  “Let me guess,” Null Hypothesis said.  “Someone’s worse than
+  Ruth at math?  Someone specific?”<br/>
+  “Of course someone’s worse!” Tia exclaimed.  “Don’t you know
+  who Ruth is?”<br/>
+  “Yes, I do!” Null Hypothesis shouted back.  “I’m taking chem
+  with her, and it’s the same thing there!  It’s the same
+  thing in her physics class!  Somehow, Ruth’s always getting
+  attacked by someone worse than her!”<br/>
+  Ruth started shaking on Laurel, and a soft, broken whimper
+  escaped.  Laurel’s expression softened. “It’s OK, Ruth.
+   It’s OK.  We’re here for you.”  She tenderly
+  stroked Ruth’s shaking back.<br/>
+  Knightclaw vaulted in, and spoke into his staff.
+   “Scarletbug, Null Hypothesis came to Building 2.
+   She’ll come your way next.  Hold your position.”<br/>
+  “Already there,” Scarletbug spoke into her yoyo.  She sat
+  perched on the roof of Building 14, with the lacrosse stick bound
+  across her back.<br/>
+  “I don’t think you understand!” Laurel objected, still pressing
+  Ruth’s shaking back.  “Ruth’s been doing all this
+  differential forms stuff, whatever that is, this whole time,
+  while Hazel’s still stuck on integration by parts!  We know
+  what we saw!”<br/>
+  “Can she still do it?” Null Hypothesis asked.<br/>
+  “Yes, when she’s not hurt and scared!” Laurel insisted.
+   “And Hazel still can’t!”<br/>
+  “Then check that!”  Null Hypothesis threw her boomerang.
+   It struck Laurel, marking her orange, and flew through an
+  exit.<br/>
+  Knightclaw extended his staff straight at Null Hypothesis.
+   Null Hypothesis grabbed the staff with both hands and
+  yanked it over her head, sending Knightclaw and his end of the
+  staff flying out and over the roof.  The staff immediately
+  retracted out of her hands.  Null Hypothesis leapt</span>
+<span class="c4">out</span><span class="c3">.  Knightclaw
+  did a flip and struck the roof with his feet, sending him
+  rebounding straight for Null Hypothesis at breakneck
+  speed.</span></p>
+<p class="c8"><span class="c3">“Ruth, why didn’t you tell us you
+  were being hurt in other classes too?” Owen asked.  “We’d
+  have protected you.”  Another soft, broken whimper escaped
+  Ruth.<br/>
+  “I better check with Hazel,” Laurel said.  She stood up and
+  stepped away from the couch.  Ruth’s body toppled, slumping
+  face-first into the couch where Laurel once sat.  Her body
+  pressed abruptly into the cushions, distorting them.  Then
+  again.  And again.  In rapid succession.  Tia and
+  Owen looked at Ruth.  “Ruth…?” Tia asked hesitantly.
+   Without warning, Ruth shot up, swung around and bolted
+  towards the exit.  Her feet suddenly crossed.  Her
+  hands reached out in front of her as her body hit the floor.
+   Her soft pink oversized backpack wobbled on top of her,
+  dwarfing her figure.  Another soft, broken whimper escaped.
+   A nearby student started running to Ruth.<br/>
+  “We should—” Tia started.<br/>
+  “I don’t know…” Owen interrupted.  “I think she wants space
+  right now.”  He hesitated.  “But we should still check
+  on her later.”<br/>
+  Ruth brought her knees close and hugged herself.  As she
+  trembled, her face tightened, her eyes squeezed shut, and a
+  louder, broken whimper escaped.<br/>
+  “Are you hurt?” the nearby student asked, offering his hand.
+   Ruth glanced behind her, seeing Laurel, with her orange
+  border and Hazel, with her blue border, approach Tia and Owen.
+   Ruth quickly shoved the student away, sprung to her feet,
+  and sprinted away with her soft pink oversized
+  backpack.</span></p>
+<p class="c15"><span class="c5 c4">The camera shows the butterfly
+  card to skip to outside Professor Cormier’s office in Building
+  14.</span></p>
+<p class="c8"><span class="c3">Null Hypothesis sped past the open
+  door of Professor Cormier’s office.  “Ruth was supposed to
+  be here,” Lily said from inside the office.  “Where is she?”
+   Null Hypothesis abruptly stopped outside the office.<br/>
+  “What was that?” Lily asked from inside, blinking at the door.
+   Sitting near her were Kayla, Sophie, James and Emma.
+   Professor Cormier, sitting at the front, squinted through
+  the door.<br/>
+  “Something’s been crashing around for the past few minutes now…”
+  Kayla trailed off.  “I hope it’s not one of those akuma
+  thingies.  One was bad enough already.”<br/>
+  Outside the door, Scarletbug and Knightclaw bounded in from
+  opposite sides of Null Hypothesis.  Null Hypothesis reached
+  out.  The boomerang came zipping down the corner.
+   Knightclaw dodged as the boomerang zipped past him into
+  Null Hypothesis’ hand.<br/>
+  Ruth peeked around the corner from down the hallway, still
+  carrying her oversized backpack.<br/>
+  “Why do you keep trying to get in my way?” Null Hypothesis
+  demanded.  The room froze inside.  Null Hypothesis
+  pointed to the open door.  “Inside that room, someone is
+  being hurt in relation to Ruth.  Someone like me is sitting
+  there, confused and stuck. You stop me, and you let that happen.
+  Do you really want to do that?”<br/>
+  “Not like this!” Scarletbug objected, aiming her lacrosse stick.
+   “All this will do is make things harder for Grace, harder
+  for Ruth, and anyone near her!”<br/>
+  Inside the room, Emma swallowed and looked at the floor.<br/>
+  “And how do you know?” Null Hypothesis demanded.<br/>
+  “Because I saw what happened when Grace was akumatized!”
+  Scarletbug explained.  “It only hurt her more, and it’s
+  doing the same to you!  Please, stop this!”<br/>
+  “This argument will just waste our time,” Null Hypothesis
+  replied.  “It would be better if you just saw for
+  yourself.”<br/>
+  Ruth swung around, hiding behind the corner again.  Her face
+  tightened as her chin trembled.  Then her jaw clenched and
+  her foot stamped the ground.  She quickly sprinted off.<br/>
+  In the hallway, Null Hypothesis threw her boomerang at
+  Scarletbug.  <br/>
+  As Scarletbug swung the lacrosse stick, catching it, Knightclaw
+  slid underneath the legs of Null Hypothesis and Scarletbug and
+  stood up behind Scarletbug.  “Cataclysm!”  Knightclaw’s
+  hand pulsed with destructive energy.  Scarletbug twirled
+  around with the lacrosse net, pinning the struggling boomerang to
+  the net with centrifugal force.  Knightclaw slammed his hand
+  precisely into the boomerang in the net.  The boomerang
+  disintegrated into black dust, and the dark purple akuma flitted
+  out.<br/>
+  “No more evil-doing for you, akuma.”  Scarletbug’s yoyo
+  wrapped around the akuma. “Bye, bye little butterfly,” she said
+  quietly as the white butterfly escaped.  She threw her
+  lacrosse stick into the air.  “Miraculous Scarletbug!”
+   It turned into a swarm of ladybugs that restored Sanjana’s
+  notebook, repaired the broken window and dented ceilings before
+  dispersing away.</span></p>
+<p class="c15"><span class="c5 c4">The camera cuts to Nishant,
+  with his crimson ❄️ brooch, in his dorm room with the lights
+  off.</span></p>
+<p class="c8"><span class="c3">“Come on, Ruth.  Finish the
+  setup,” Nishant said quietly.  His voice dropped ominously.
+   “I know you can do it.  I know you will.”</span></p>
+<p class="c15"><span class="c5 c4">The camera cuts back to
+  outside Professor Cormier’s office.</span></p>
+<p class="c8"><span class="c3">A dark purple mist surrounded Null
+  Hypothesis, and when it receded, Sanjana sat kneeling on the
+  floor.  “What… what happened?”<br/>
+  Scarletbug crouched beside her.  “You were akumatized.
+   But you’re safe now.”<br/>
+  Professor Cormier peeked outside.  “I heard the commotion.
+   I hope nobody is hurt?”<br/>
+  “Don’t worry, Professor,” Knightclaw said.  “We’ve got it
+  under control.”<br/>
+  Professor Cormier nodded and stepped inside.<br/>
+  Scarletbug reached into her yoyo, pulled out a magical charm, and
+  placed it in Sanjana’s hand.  “Here is a magical charm to
+  help you remember that uncertainty is sometimes OK.”<br/>
+  “Did it work?” Sanjana asked quickly.  “Are the others still
+  stuck?”<br/>
+  “That’s for them to decide,” Scarletbug said gently.<br/>
+  “I just hope they can,” Sanjana replied.  “Thank you.”<br/>
+  Scarletbug helped Sanjana up, and walked off with Knightclaw.<br/>
+  “By the way,” Knightclaw said when they were a bit further down
+  the hall.  “How are your earrings not beeping already?
+   It’s been more than 5 minutes since you called your Lucky
+  Charm.”<br/>
+  “I recharged while I was waiting,” Scarletbug answered.<br/>
+  “Clever,” Knightclaw nodded.</span></p>
+<p class="c15"><span class="c5 c4">The camera shows the butterfly
+  card to skip to the open space between Buildings 2 and
+  14.</span></p>
+<p class="c8"><span class="c4">Sanjana stood in the open space,
+  staring at her phone.  “Sanjana!” a voice called.
+   Sanjana turned to see Mira, Lucy, Darren, Paige and Eric
+  approaching her.  “Sanjana, what the heck?”<br/>
+  “I don’t know!” Sanjana said.  “One minute I was outside
+  Professor Lansen’s office, and the next minute I was somewhere
+  else completely next to two superheroes!”<br/>
+  “Sanjana, relax,” Paige said.  “You’ve literally been
+  akumatized.  We just want to know if you’re OK.”<br/>
+  “So you’re the one who boomeranged me?”  The group turned
+  around to see Hazel approaching.<br/>
+  “Who are you?” Sanjana asked.  “And what do you mean
+  by</span> <span class="c4 c6">boomeranged</span><span class="c4">?”<br/>
+  “I was just minding my business when a literal</span>
+<span class="c4 c6">boomerang</span><span class="c4"> hit me
+  out of nowhere, and next I knew I was doing some generalized IBP
+  thing with Laurel.”<br/>
+  Ruth peeked around a nearby corner.<br/>
+  “Generalized IBP?” Mira asked Hazel.<br/>
+  “It’s the same idea as IBP, except that it’s with differential
+  forms.  We only did a special case, though.”  She
+  unshouldered her backpack.  “I could show you if you’re
+  interested.”  Mira nodded.<br/>
+  Ruth quickly hid, looking away.  Her fists clenched tightly.
+   Her soft pink oversized backpack lay on the ground beside
+  her.<br/>
+  Laurel, Tia and Owen came running to them.  “Hey guys, have
+  you seen a girl with a huge pink b—”  Tia stopped short when
+  she saw Hazel.  “What’s</span> <span class="c4 c6">she</span><span class="c4"> doing here?”<br/>
+  “She’s just explaining some differential forms stuff,” Mira
+  replied.  “Interested?”<br/>
+  “No, you don’t understand!” Tia explained.  “She’s only
+  doing it because Ruth did!”<br/>
+  Mira froze.  “Ruth?  You know Ruth?”<br/>
+  “Yes!” Tia exclaimed.  “If you knew her, you’d know how
+  fragile she can be.  Especially around Hazel.”<br/>
+  “But that’s what we’ve seen around Elliot!” Lucy said.<br/>
+  Elliot approached the group.  “Seriously, guys?” The group
+  wheeled around.  “Just when I thought we could be
+  friends.”<br/>
+  “Let me guess, you’re Elliot?” Hazel asked.  Elliot nodded.
+   “Did Ruth do something amazing around you too?” Hazel
+  asked.<br/>
+  Elliot nodded.  “It was some diffusion equations</span>
+<span class="c4">for voltammetry</span><span class="c4"> thing.”<br/>
+  “Can I see?” Hazel asked.<br/>
+  “Sure,” Elliot said.  “But let’s get away from</span>
+<span class="c4 c6">them</span><span class="c3"> first.”
+   He shot a pointed glance at Mira, Lucy and Paige, and
+  Sanjana.<br/>
+  “Actually, I think I’d like to hear more,” Sanjana said.
+   “Professor Lansen told me about this recently.  He
+  said solving it was beyond the scope of 5.111, though.”<br/>
+  Ruth peeked around the corner again.  Her tightly clenched
+  fists started to shake by her sides.<br/>
+  “Still,” Hazel said.  “It doesn’t hurt to try.”<br/>
+  “It’s this.”  Elliot pulled out the sheet of paper from his
+  backpack with the diffusion PDE on it, with the crossed off
+  partials.  “How would you solve this?”<br/>
+  “Hmm, that looks about right,” Hazel said.  “You could solve
+  it using Laplace transforms.”<br/>
+  “Can you solve it?” Mira asked.  Hazel nodded.</span></p>
+<p class="c15"><span class="c4 c6">Cue C-Pen’s theme from Skibidi
+  Toilet Multiverse 037, except it’s transposed down to B minor
+  instead of C minor as in the OST</span><span class="c4">.</span></p>
+<p class="c8"><span class="c4">“Well, I guess you’re beyond the
+  scope of 5.111 too!” Eric joked.<br/>
+  Ruth hid behind the corner.  Her chin trembled, her face
+  tightened, and suddenly, her foot kicked her soft pink oversized
+  backpack, sending it skidding half a foot away.  Then again.
+   And again.  In rapid succession.<br/>
+  Meanwhile, Hazel looked at Eric quizzically.  “I’m just
+  playing around.”  Eric said quickly.<br/>
+  Hazel paused.  “But why are the partials crossed out like
+  that?”<br/>
+  “Wait a second…” Sanjana trailed off.  “This is the problem
+  Elliot gave Ruth earlier.  So</span> <span class="c4 c6">this</span><span class="c4"> was her solution?”<br/>
+  “I don’t even remember doing that!” Elliot objected.<br/>
+  “That’s because you were akumatized,” Sanjana explained.
+   “People tend to forget stuff once they come</span>
+<span class="c4">to</span><span class="c3">.  Not sure
+  why.”<br/>
+  “I’m sure this is just a misunderstanding,” Paige said quickly.
+   “If we ask Ruth, I’m sure it will make sense.”<br/>
+  Lily ran up to them from the direction of Building 14.
+   “Wait!  Ruth!  Have you seen Ruth?”<br/>
+  “No, but we’re going to look for her,” Paige said.</span></p>
+<p class="c8"><span class="c3">Ruth quickly shouldered her soft
+  pink oversized backpack and started running away from the corner.
+   Lucy glanced over and pointed.  “Wait a second, is
+  that Ruth?”  The group looked in the direction of Lucy’s
+  point.  “Ruth!”  Lucy sprinted towards her, followed by
+  Mira and Eric.  “Ruth, it’s just us!” she called.<br/>
+  Ruth stopped abruptly.  Her soft pink oversized backpack
+  wobbled behind her.  The group approached.  Elliot held
+  the PDE sheet in front of Ruth.</span></p>
+<p class="c8"><span class="c4 c6">41s:</span><span class="c4"><br/>
+  “Can you help us with this?” Sanjana asked.  “Why are the
+  partials cancelled?”<br/>
+  Ruth flinched.  Her fists continued trembling by her sides
+  as she glared squarely into their eyes.<br/></span><span class="c4 c6">48s:<br/></span><span class="c4">“YOU WANT TO KILL ME!!”
+  Ruth shrieked, her voice shrill, sharp and cutting, as she
+  squeezed her eyes shut and shook her arms and fists violently
+  beside her head.  “GO AWAY!  HELP!”<br/>
+  The group recoiled.  “Ruth…?” Mira asked, frozen with
+  shock.<br/>
+  “Stop it already!” Ruth screamed.  “You’re worse than me at
+  math, worse than me at chemistry, worse than me at</span>
+<span class="c4 c6">EVERYTHING!</span><span class="c4">”<br/>
+  “R-Ruth…?” Lily asked.<br/>
+  “I knew it, this whole time!” Elliot said.  He turned to the
+  group.  “Look how ‘vulnerable’ she is,” he said
+  sarcastically.  “Guys, let’s go.  How does it feel
+  seeing her true colors?”<br/>
+  “Stop it, stop it, STOP IT!” Ruth screamed, stamping her foot on
+  the grass while still squeezing her eyes shut and shaking her
+  fists beside her head.  “Worse than me!  That’s all you
+  are!  Worse than me, worse than me,</span> <span class="c4 c6">WORSE THAN ME</span><span class="c3">!!”</span></p>
+<p class="c15"><span class="c5 c4">Cut to black.</span></p>
+<p class="c15"><span class="c4 c6">The camera shows the
+  post-credits Butterfly card,</span><span class="c4"> </span><span class="c5 c4">revealing Emma walking
+  alone outside Professor Cormier’s office.</span></p>
+<p class="c8"><span class="c3">Emma’s phone chimed.  “Lily?”
+  she repeated quietly.  She swiped her screen.  Her eyes
+  read the message, then widened as she froze.  “If this is
+  true…” she whispered.  “Then what have I done?!”</span></p>
+<p class="c8 c13"></p>
+<p class="c15"><span class="c4 c6">References:<br/>
+  MIT 5.111 OCW:</span> <span class="c12 c4 c6"><a class="c17" href="https://www.google.com/url?q=https://ocw.mit.edu/courses/5-111sc-principles-of-chemical-science-fall-2014/&amp;sa=D&amp;source=editors&amp;ust=1792782623778811&amp;usg=AOvVaw3Mj_UWuTB24UsCd_KCPJRR">
+  https://ocw.mit.edu/courses/5-111sc-principles-of-chemical-science-fall-2014</a></span><span class="c4 c6"><br/>
+
+  MIT Campus Map:</span> <span class="c12 c4 c6"><a class="c17" href="https://www.google.com/url?q=https://whereis.mit.edu/&amp;sa=D&amp;source=editors&amp;ust=1792782623778944&amp;usg=AOvVaw0jDymhMO3_KkZBnRJVG0Gg">
+  https://whereis.mit.edu/</a></span><span class="c4 c6"><br/>
+  Overview of Study Spots:</span> <span class="c12 c4 c6"><a class="c17" href="https://www.google.com/url?q=https://mitadmissions.org/blogs/entry/study-spots-at-mit/&amp;sa=D&amp;source=editors&amp;ust=1792782623779077&amp;usg=AOvVaw37HaS2Ucl0wIzE8UVAoPbe">
+  https://mitadmissions.org/blogs/entry/study-spots-at-mit/</a></span><span class="c4 c6"><br/>
+
+  Interior of Simons (Building 2):</span> <span class="c12 c4 c6"><a class="c17" href="https://www.google.com/url?q=https://capitalprojects.mit.edu/projects/mathematics-building-2&amp;sa=D&amp;source=editors&amp;ust=1792782623779240&amp;usg=AOvVaw3ImF2cheDqOnyIt2sNc9Ph">
+  https://capitalprojects.mit.edu/projects/mathematics-building-2</a></span><span class="c4 c6"><br/>
+
+  MIT 18.01 OCW:</span> <span class="c12 c4 c6"><a class="c17" href="https://www.google.com/url?q=https://ocw.mit.edu/courses/18-01-single-variable-calculus-fall-2006/pages/lecture-notes/&amp;sa=D&amp;source=editors&amp;ust=1792782623779408&amp;usg=AOvVaw1IxBqsV3tGiTpuL7174r0P">
+  https://ocw.mit.edu/courses/18-01-single-variable-calculus-fall-2006/pages/lecture-notes/</a></span><span class="c4 c6"><br/>
+
+  MIT 8.01 OCW:</span> <span class="c4 c6 c12"><a class="c17" href="https://www.google.com/url?q=https://ocw.mit.edu/courses/8-01l-physics-i-classical-mechanics-fall-2005/pages/lecture-notes/&amp;sa=D&amp;source=editors&amp;ust=1792782623779591&amp;usg=AOvVaw3vhg9zp73-aXly2WPumnw5">
+  https://ocw.mit.edu/courses/8-01l-physics-i-classical-mechanics-fall-2005/pages/lecture-notes/</a></span><span class="c4 c6"><br/>
+
+  Atkins and Jones, Chemical Principles: The Quest for Insight,
+  7e<br/>
+  Bard and Faulkner, Electrochemical Methods: Fundamentals and
+  Applications<br/>
+  Hubbard and Hubbard, Vector Calculus, Linear Algebra, and
+  Differential Forms<br/>
+  Eyring, Walter and Kimball, Quantum
+  Chemistry<br/></span><span class="c4 c6">Skibidi Toilet Multiverse
+  037</span></p>
+<hr style="page-break-before:always;display:none;"/>
+<p class="c15 c13"></p>
+</div>
