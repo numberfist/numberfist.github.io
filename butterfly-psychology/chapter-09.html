@@ -168,7 +168,7 @@ title: "Chapter 9: Null Hypothesis"
   “That’s… not correct,” Professor Lansen said.<br/>
   Sanjana looked at him quickly.  “It’s… not?”<br/>
   Professor Lansen shook his head.  “The $\Delta G^\circ$ way
-  you mentioned is correct.  The same logic doesn't apply to
+  you mentioned is correct.  The same logic doesn’t apply to
   half-reaction potentials.”<br/>
   Sanjana remained still for a second.  “But… there has to be
   a way to do it directly with voltages… right?”<br/>
@@ -433,8 +433,7 @@ title: "Chapter 9: Null Hypothesis"
   Stata Center (Building 32).</span></p>
 <p class="c8"><span class="c3">Mira, Darren, Claire, Paige and
   Eric clustered around one of the many tables.<br/>
-  “Are you sure Ruth will be fine?” Eric asked concernedly.
-   “She seemed pretty _.”<br/>
+  “Are you sure Ruth will be fine?” Eric asked concernedly.<br/>
   “I hope so,” Mira said.  “But at least Lucy’s with her.”<br/>
   “Where’s Ruth?” a voice demanded.  The group turned around.
    Null Hypothesis stood behind them, holding her
@@ -535,8 +534,8 @@ title: "Chapter 9: Null Hypothesis"
   boomerang as it approached.  The boomerang curved upwards
   around Scarletbug and flew straight to Mira.  The boomerang
   struck, marking her with an orange outline.  The boomerang
-  circled around, marking Eric with a blue outline.  The
-  boomerang circled back.  Scarletbug caught the boomerang in
+  circled around, marking Eric with a blue outline.  Then
+  it circled back.  Scarletbug caught the boomerang in
   midair and squeezed it tightly as it struggled against her grip.
    “That’s enough, Sanjana!”<br/>
   Null Hypothesis reached out as if summoning the boomerang.
@@ -552,7 +551,7 @@ title: "Chapter 9: Null Hypothesis"
   Claire stood up.  “Wait!  Ruth’s still hurt.
    Shouldn’t we give her space?”<br/>
   Mira turned around.  “It’s just us.”  Claire blinked at
-  Mira.  “Don’t worry, we’ll be careful.” Mira added.
+  Mira.  “Don’t worry, we’ll be careful,” Mira added.
    They continued walking down the study room.<br/>
   Claire took a step forward.  Darren put his arm in front of
   Claire.  “That won’t work.  You’ll just get pushed
@@ -612,7 +611,7 @@ title: "Chapter 9: Null Hypothesis"
   Mira exhaled in relief.  “We’re so glad to hear that!
    But also, do you mind helping with something?”<br/>
   “W-what is it?” Ruth said hesitantly.<br/>
-  “You know the stuff you showed us before?” Mira asked.
+  “You know the stuff you showed us before?” Eric asked.
    “Could you… like… teach us some of it?  Now that
   you’re feeling better?”<br/>
   “I—” Ruth started.  She glanced at the group across the
@@ -1286,10 +1285,97 @@ title: "Chapter 9: Null Hypothesis"
   Bard and Faulkner, Electrochemical Methods: Fundamentals and
   Applications<br/>
   Hubbard and Hubbard, Vector Calculus, Linear Algebra, and
-  Differential Forms<br/>
+  Differential Forms: A Unified Approach<br/>
   Eyring, Walter and Kimball, Quantum
   Chemistry<br/></span><span class="c4 c6">Skibidi Toilet Multiverse
   037</span></p>
 <hr style="page-break-before:always;display:none;"/>
 <p class="c15 c13"></p>
+</div>
+
+<div style="border: 1px solid #999; padding: 10px 12px; margin: 18px 0; font-family: 'Times New Roman'; font-size: 13pt; line-height: 1.25; background-color: #f8f8f8;">
+  <strong>Optional problems for interested readers:</strong><br/> 
+  <ol class="supplementary-problems">
+  <li>
+  <div class="problem">
+    <p>This problem will investigate the differential forms generalization
+       of integration by parts that was mentioned in the story.
+       Let $X$ be a compact, oriented, $k$-dimensional smooth manifold with boundary $\partial X$.  Here, the orientation of $\partial X$ is induced from $X$.
+       Recall that Stokes’ theorem gives 
+      $$ \int_X d \omega = \int_{\partial X} \omega$$ 
+      for any $C^1$-differentiable $(k-1)$-form $\omega$ on $X$.</p>
+    <ol class="problem-parts">
+      <li>Hazel’s verification was as follows.  Given a $C^1$-differentiable function $f: X \rightarrow \mathbb{R}$
+        and a $C^1$-differentiable $(k-1)$-form on $X$, show that
+        $$\int_X f d\omega = \int_{\partial X} f \omega - \int_X df \wedge \omega .$$
+        Verify that when $X$ is an interval in $\mathbb{R}$, this result reproduces the integration by parts formula from single variable calculus. <br/>
+        Hint: The derivation is analogous to the derivation of the integration by parts formula from single variable calculus.
+      </li>
+      <li>The more general result was derived offscreen by “Ruth”.  Let $\varphi$ and $\omega$ be $C^1$-differentiable $p$- and $(k-p-1)$-forms on $X$, respectively.  Show that
+        $$(-1)^p \int_X \varphi \, \wedge \, d\omega = \int_{\partial X} \varphi \wedge \omega - \int_X d\varphi \wedge \omega .$$
+        Note the sign on the LHS.  Verify that the result from part (a) can be obtained as a special case of this more general result.
+        </li>
+        <li>
+          Derive the curl and divergence theorems using the generalized Stokes’ theorem.  How does the divergence theorem generalize beyond $3$ dimensions?
+        </li>
+    </ol>
+  </div>
+  </li>
+
+  <li>
+  <div class="problem">
+    <p>As noted in this chapter, the current-time profile for diffusion-controlled potential step and potential sweep experiments can be investigated by solving coupled diffusion equations via the Laplace transform method.
+      Since this was imprecisely worded in Chapter 6, the formulation will be reiterated here.  
+      Consider a redox reaction $\ce{O} + n \ce{e^-} \ce{<=>} \ce{R}$ with standard reduction potential $E^{\circ}$.  
+      For simplicity, it can be assumed that the initial concentration of $O$ is uniformly $C_O^*$ and that the initial concentration of $R$ is 0.
+      It is assumed that the redox reaction is sufficiently fast that equilibrium between $\ce{O}$ and $\ce{R}$ is always maintained at the (planar) electrode at $x=0$.  The electrode potential $E(t)$ may be time-dependent.
+      In dilute solutions, the concentrations $C_O(x,t)$ and $C_R(x,t)$ of $\ce{O}$ and $\ce{R}$, respectively, satisfy their own diffusion equations
+      $$\dfrac{\partial C_O}{\partial t} = D_O \dfrac{\partial^2 C_O}{\partial x^2}$$
+      $$\dfrac{\partial C_R}{\partial t} = D_R \dfrac{\partial^2 C_R}{\partial x^2}$$
+      The initial and semi-infinite boundary conditions are
+      $$\lim_{x\rightarrow \infty} C_O(x,t) = C_O(x,0) = C_O^*$$
+      $$\lim_{x\rightarrow \infty} C_R(x,t) = C_R(x,0) = 0$$ 
+      and the flux balance and equilibrium conditions are
+      $$D_O \left. \dfrac{\partial C_O}{\partial x} \right|_{x=0} + D_R \left. \dfrac{\partial C_R}{\partial x} \right|_{x=0} = 0$$
+      $$E(t) = E^{\circ} + \dfrac{RT}{nF} \ln \left( \dfrac{C_O(0,t)}{C_R(0,t)} \right)$$
+      These conditions account for a total of $4$ boundary conditions and $2$ initial conditions.
+      The initial concentration profiles are prescribed for $x>0$ at $t=0$, and the equilibrium condition is imposed for $t > 0$, allowing the surface concentrations to adjust instantaneously when the potential is applied.
+      The current at the electrode is given by the flux of charge going into the electrode:
+      $$i(t) = nFA D_O \left. \dfrac{\partial C_O}{\partial x} \right|_{x=0},$$
+      where $A$ is the surface area of the electrode, and the reduction current is taken to be positive.  It may be convenient to define 
+        $$f(t) \equiv \dfrac{i(t)}{nFA}$$
+        in order to work with quantities which have the same units as the flux of $\ce{O}$ and $\ce{R}$.  Recall that the Laplace transform (in the time domain) of a time-dependent function $g(t)$ is given by
+      $$ \overline{g}(s) \equiv \int_0^\infty g(t) e^{-st} dt .$$
+    </p>
+    <ol class="problem-parts">
+      <li>Consider a potential step experiment, in which the applied potential $E(t)=E$ is constant.  Show that the Laplace transform of $f(t)$ is given by
+        $$\overline{f}(s) = \dfrac{D_O^{1/2} C_O^*}{s^{1/2}} \dfrac{1}{1 + \xi \theta},$$
+        where the dimensionless parameters $\xi$ and $\theta$ are defined as
+        $$\xi \equiv \left( \dfrac{D_O}{D_R} \right)^{1/2}$$
+        $$\theta \equiv \exp \left[ \dfrac{nF}{RT} (E - E^{\circ}) \right].$$
+        Taking the inverse Laplace transform then gives $f(t) \propto t^{-1/2}$:
+        $$f(t) = \dfrac{D_O^{1/2} C_O^*}{\pi^{1/2} t^{1/2}} \dfrac{1}{1 + \xi \theta}.$$
+        Physically interpret the $\theta \rightarrow 0$ and $\theta \rightarrow \infty$ limits, and explain why the $\theta \rightarrow 0$ limit reproduces the expression given in Chapter 7.
+      </li>
+      <li>Consider a linear potential sweep experiment (LSV), in which the applied potential $E(t) = E - vt$ is varied linearly with time.
+        Since the Nernst equilibrium condition is time-dependent, an explicit form for $f(t)$ cannot be obtained in terms of elementary functions, contrary to what Chapter 6 might suggest.
+        However, an integral equation for $f(t)$ in terms of a convolution integral can be obtained.  Show, using the Laplace transform method, that $f(t)$ satisfies
+        $$\int_0^t f(\tau)(t-\tau)^{-1/2} d\tau = \pi^{1/2}D_O^{1/2}C_O^* \dfrac{1}{1 + \xi \theta e^{-\sigma t}},$$
+        where $\sigma \equiv (nF/RT)v$ has units of inverse time.<br/>
+        Hint: First obtain $\overline{C_O}(0,s)$ and $\overline{C_R}(0,s)$ in terms of $\overline{f}(s)$, 
+        and take the inverse transforms to obtain $C_O(0,t)$ and $C_R(0,t)$ in terms of the convolution integral given in the LHS of the desired result.
+        Then enforce the Nernst equilibrium condition and solve algebraically.
+      </li>
+      <li>
+        It turns out that the integral equation from part (b) can be solved to obtain $f(t)$ in terms of an integral.  Show, using the Laplace transform method, that (for $t>0$),
+        $$f(t) = D_O^{1/2}\pi^{-1/2}C_O^* \left[ G(0)t^{-1/2} + \int_0^t G'(t-\tau)\tau^{-1/2}d\tau \right],$$
+        where
+        $$G(t) \equiv \dfrac{1}{1 + \xi \theta e^{-\sigma t}}.$$
+        It follows that the current profile can be obtained by direct numerical integration.  When the reverse sweep is added, the familiar duck-shaped profile seen in cyclic voltammetry (CV) experiments is recovered.
+      </li>
+    </ol>
+  </div>
+  </li>
+
+  </ol>
 </div>
