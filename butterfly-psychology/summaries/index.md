@@ -30,4 +30,5 @@ THE CHAPTERS HERE ARE NOT INTENDED TO BE READ AS PART OF THE STORY.  **If you ar
 - [Chapter 14](chapter-14.html)
 - [Chapter 15](chapter-15.html)
 - [Chapter 16](chapter-16.html)
-- [Chapter 17: Part of the Remainder of S2](chapter-17.html)
+- [Season Trajectory: Part of the Remainder of S2](s2-trajectory.html)
+- [Season Trajectory: Season 3](s3-trajectory.html)
