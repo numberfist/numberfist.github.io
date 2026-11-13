@@ -51,12 +51,16 @@ Several more chapters in progress.
 
 ## Spoiler Archive
 
-A spoiler archive exists as a development snapshot that preserves the story’s core premise, Season 1 draft material, and Season 2’s direction, so that the story’s underlying story engine and development timeline are clear.
+A spoiler page exists as a development snapshot that preserves the story’s core premise, Season 1 draft material, and Season 2’s direction, so that the story’s underlying story engine and development timeline are clear.
 
 <!-- 
 ⚠️MAJOR SPOILER WARNING⚠️
-The spoiler archive contains information that may spoil the intended animated version, and even the written version.  If you are planning to read the story chronologically or wait for the animated version, do not open it.  It exists mainly for provenance and is not meant to be read otherwise.
+The spoiler page contains information that may spoil the intended animated version, and even the written version.  If you are planning to read the story chronologically or wait for the animated version, do not open it.  It exists mainly for provenance and is not meant to be read otherwise.
 
+Spoiler/provenance page link:
+https://numberfist.github.io/butterfly-psychology/summaries/
+
+An older (potentially out of date) spoiler archive also exists.
 Spoiler/provenance archive link:
 https://github.com/numberfist/miraculous-spoiler-archive 
 -->
